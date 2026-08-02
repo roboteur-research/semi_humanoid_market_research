@@ -9,3 +9,4 @@
 | genie-g2-spec-table.jpg | https://www.agibot.com/products/G2 | https://www.agibot.com/public/static/index/en/images/G2/G2Five-img.jpg | Official English product specification table (primary spec source: 26 DoF, 1652Wh, Jetson T5000, IP42/IP50) | vendor spec sheet |
 
 Note: no third-party deployment photo retrieved; Longcheer line photos not published as of research date.
+| g2-official-anatomy.jpg | https://www.agibot.com (G2 product page) | https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg | Official annotated anatomy diagram, front + back views: head RGB-D/stereo/fisheye cameras, mic array, Jetson T5000 board, 7-DoF arms (5 kg, full joint torque sensing), 3-DoF neck & waist, 2-DoF folding/lifting leg, dual lidar, 8 ultrasonics, dual hot-swap batteries, omnidirectional chassis 1.5 m/s (3840×2000, visually verified) | AgiBot official product image; added 2026-08-02 at user request |

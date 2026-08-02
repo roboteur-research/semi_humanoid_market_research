@@ -9,32 +9,126 @@
   "status": "shipping",
   "first_shown": "2025-10-16",
   "target_applications": "3C/electronics assembly, automotive parts assembly, logistics sorting, commercial interaction, embodied-AI data collection",
-
-  "base_type":            {"value": "wheeled (4-DoF omnidirectional chassis: omni, crab-walk, in-place rotation)", "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "height_mm":            {"value": 1795, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2 (1225-1795mm adjustable)"},
-  "weight_kg":            {"value": 185, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "dof_total":            {"value": 26, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2 (active DoF: 3 neck + 2x7 arms + 5 waist/leg + 4 chassis; hands excluded)"},
-  "dof_per_arm":          {"value": 7, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "reach_mm":             {"value": null, "confidence": "vendor-claimed", "source": "not disclosed"},
-  "payload_per_arm_kg":   {"value": 5, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2 (arm rated load)"},
-  "payload_total_kg":     {"value": 10, "confidence": "estimated", "source": "2x5kg rated; dual-arm total not separately stated"},
-  "torso_lift":           {"value": "waist+leg mechanism, 570mm height range (1225-1795mm); waist yaw ±174.5°, pitch -110°..+64°; knee 0-152°", "confidence": "vendor-claimed", "source": "https://cdn.robotshop.com/media/A/AGE/RB-Age-04/pdf/AgiBot-G2-Specification.pdf"},
-  "max_speed_ms":         {"value": 1.5, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "battery_kwh":          {"value": 1.652, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2 (2 hot-swappable batteries, 1652Wh total)"},
-  "runtime_h":            {"value": 4, "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2 (approx. 4h; swap rotation for 24/7)"},
-  "actuators":            {"value": "electric joints with full-arm torque sensors; 'cross-wrist' force-controlled arm; ~0.5N force control resolution", "confidence": "vendor-claimed", "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"},
-  "end_effector":         {"value": "five-finger dexterous hands (OmniHand family) shown; grippers configurable; shipping-config hand DoF not disclosed", "confidence": "estimated", "source": "https://www.agibot.com/products/G2 (renders)"},
-  "media_at_flange":      {"value": null, "confidence": "estimated", "source": "not disclosed"},
-  "sensors_head":         {"value": "1 head RGB-D, 1 stereo camera, 3 fisheye cameras, microphone array, facial interaction screen", "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "sensors_wrist_hand":   {"value": "2 wrist RGB-D cameras; joint torque sensors along arms", "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "sensors_base":         {"value": "2x 3D lidar", "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "compute":              {"value": "NVIDIA Jetson Thor T5000, 2070 TFLOPS (FP4), <10ms latency claim", "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "software_stack":       {"value": "GO-1/GO-2 VLA models; collect-train-deploy data flywheel (AgiBot World); AimRT middleware; OTA; secondary development supported; Wi-Fi/BT/4G/5G/NFC; closed source + B2B SDK", "confidence": "vendor-claimed", "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"},
-  "safety_compliance":    {"value": "IP42 body / IP50 arms; automotive-grade components; torque-sensing compliance; no published third-party certification", "confidence": "vendor-claimed", "source": "https://www.agibot.com/products/G2"},
-  "price":                {"value": "not disclosed; predecessor Genie G1 at RMB 450k (~USD 62k)", "confidence": "estimated", "source": "https://toolnavs.com/article/1010"},
-  "availability":         {"value": "shipping (China direct; RobotShop internationally); Longcheer framework deliveries from late 2025", "confidence": "third-party", "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"},
-  "deployment_evidence":  {"value": "Longcheer ~1,000-unit framework order (hundreds of millions RMB) for tablet lines; Junpu Intelligent automotive partnership", "confidence": "third-party", "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"},
-
+  "base_type": {
+    "value": "wheeled (4-DoF omnidirectional chassis: omni, crab-walk, in-place rotation)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2"
+  },
+  "height_mm": {
+    "value": 1795,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2 (1225-1795mm adjustable)"
+  },
+  "weight_kg": {
+    "value": 185,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2"
+  },
+  "dof_total": {
+    "value": 26,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2 (active DoF: 3 neck + 2x7 arms + 5 waist/leg + 4 chassis; hands excluded)"
+  },
+  "dof_per_arm": {
+    "value": 7,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2"
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "vendor-claimed",
+    "source": "not disclosed"
+  },
+  "payload_per_arm_kg": {
+    "value": 5,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2 (arm rated load)"
+  },
+  "payload_total_kg": {
+    "value": 10,
+    "confidence": "estimated",
+    "source": "2x5kg rated; dual-arm total not separately stated"
+  },
+  "torso_lift": {
+    "value": "3-DOF waist (roll/pitch/yaw) + 2-DOF folding/lifting leg; 3-DOF neck",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+  },
+  "max_speed_ms": {
+    "value": 1.5,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+  },
+  "battery_kwh": {
+    "value": 1.652,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2 (2 hot-swappable batteries, 1652Wh total)"
+  },
+  "runtime_h": {
+    "value": 4,
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2 (approx. 4h; swap rotation for 24/7)"
+  },
+  "actuators": {
+    "value": "electric joints with full-arm torque sensors; 'cross-wrist' force-controlled arm; ~0.5N force control resolution",
+    "confidence": "vendor-claimed",
+    "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"
+  },
+  "end_effector": {
+    "value": "quick-swap end-effectors: optional 19-DOF dexterous hand (O12) w/ 3D tactile, OmniPicker; grippers standard",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "estimated",
+    "source": "not disclosed"
+  },
+  "sensors_head": {
+    "value": "RGB-D camera, stereo camera, fisheye camera array (360°), interactive display, microphone array (sound-source localization), 8W speaker",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+  },
+  "sensors_wrist_hand": {
+    "value": "wrist RGB-D cameras; full joint torque sensing; optional dexterous hand with 3D tactile sensing",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+  },
+  "sensors_base": {
+    "value": "2x lidar (360° coverage), 8x ultrasonic short-range",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+  },
+  "compute": {
+    "value": "NVIDIA Jetson T5000, 2070 TFLOPS (FP4)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+  },
+  "software_stack": {
+    "value": "GO-1/GO-2 VLA models; collect-train-deploy data flywheel (AgiBot World); AimRT middleware; OTA; secondary development supported; Wi-Fi/BT/4G/5G/NFC; closed source + B2B SDK",
+    "confidence": "vendor-claimed",
+    "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"
+  },
+  "safety_compliance": {
+    "value": "IP42 body / IP50 arms; automotive-grade components; torque-sensing compliance; no published third-party certification",
+    "confidence": "vendor-claimed",
+    "source": "https://www.agibot.com/products/G2"
+  },
+  "price": {
+    "value": "not disclosed; predecessor Genie G1 at RMB 450k (~USD 62k)",
+    "confidence": "estimated",
+    "source": "https://toolnavs.com/article/1010"
+  },
+  "availability": {
+    "value": "shipping (China direct; RobotShop internationally); Longcheer framework deliveries from late 2025",
+    "confidence": "third-party",
+    "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"
+  },
+  "deployment_evidence": {
+    "value": "Longcheer ~1,000-unit framework order (hundreds of millions RMB) for tablet lines; Junpu Intelligent automotive partnership",
+    "confidence": "third-party",
+    "source": "https://qiye.chinadaily.com.cn/a/202510/16/WS68f0b2b8a310c4deea5ecac8.html"
+  },
   "sources": [
     "https://www.agibot.com/products/G2",
     "https://cdn.robotshop.com/media/A/AGE/RB-Age-04/pdf/AgiBot-G2-Specification.pdf",
@@ -42,5 +136,5 @@
     "https://www.aparobot.com/robots/agibot-g2",
     "https://toolnavs.com/article/1010"
   ],
-  "notes": "Official spec table saved as images/genie-g2-spec-table.jpg. Aggregators claiming 175cm/55kg/32-49 DoF are wrong vs official sheet. Operating temp -15..50C per launch coverage."
+  "notes": "Official spec table saved as images/genie-g2-spec-table.jpg. Aggregators claiming 175cm/55kg/32-49 DoF are wrong vs official sheet. Operating temp -15..50C per launch coverage. Official anatomy diagram (2026-08) confirms Jetson T5000, 10G network port, detachable wireless terminal, e-stop."
 }
