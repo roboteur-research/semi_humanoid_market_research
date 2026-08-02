@@ -2,4 +2,5 @@
 
 | Filename | Source page | Direct image URL | Caption | Licence/usage |
 |---|---|---|---|---|
-| alpha-front.webp | https://humanoid.guide/product/alpha/ | https://humanoid.guide/wp-content/uploads/2025/07/Humanoid.guide-TeknTrash-ALPHA-Featured-Image-1200x1200.webp | ALPHA three-quarter view: white dual-arm torso with depth-camera head on tall lift column, AMR base with orange collection bin, TeknTrash branding | Vendor marketing render via humanoid.guide listing |
+
+| alpha-official.png | https://www.tekntrash.com | https://www.tekntrash.com/images/robot.png | Official ALPHA render: dual arms with grippers and wrist cameras, depth-camera head, tall lift column with TeknTrash branding, orange tote tray, wheeled AMR base (853×1807 transparent PNG, minor compositing artifacts right edge; visually verified). Replaces humanoid.guide image 2026-08-02 at user request | TeknTrash official website render |
