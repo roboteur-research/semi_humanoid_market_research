@@ -9,32 +9,130 @@
   "status": "discontinued",
   "first_shown": "2007-02",
   "target_applications": "teleoperated office/household manipulation research and demos",
-
-  "base_type":            {"value": "two-wheel dynamically self-balancing", "confidence": "third-party", "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"},
-  "height_mm":            {"value": 1700, "confidence": "third-party", "source": "https://www.techdigest.tv/2007/02/dexter_and_mont.html (5ft 7in)"},
-  "weight_kg":            {"value": 72.6, "confidence": "third-party", "source": "https://www.techdigest.tv/2007/02/dexter_and_mont.html (160 lb)"},
-  "dof_total":            {"value": null, "confidence": "", "source": ""},
-  "dof_per_arm":          {"value": 7, "confidence": "third-party", "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/ (right arm; + 18-DoF hand)"},
-  "reach_mm":             {"value": null, "confidence": "", "source": ""},
-  "payload_per_arm_kg":   {"value": null, "confidence": "", "source": ""},
-  "payload_total_kg":     {"value": null, "confidence": "", "source": ""},
-  "torso_lift":           {"value": "fixed torso", "confidence": "estimated", "source": ""},
-  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
-  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
-  "runtime_h":            {"value": null, "confidence": "", "source": ""},
-  "actuators":            {"value": "electric balancing wheel drive; arm/hand actuation details not disclosed (Anybots also used pneumatics on Dexter)", "confidence": "estimated", "source": ""},
-  "end_effector":         {"value": "18-DoF fully articulated human-like hand (right); simpler effector on left", "confidence": "third-party", "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"},
-  "media_at_flange":      {"value": "n/a", "confidence": "estimated", "source": ""},
-  "sensors_head":         {"value": "cameras for teleoperator (VR goggles view)", "confidence": "third-party", "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"},
-  "sensors_wrist_hand":   {"value": "glove-mapped joint control; sensor details not disclosed", "confidence": "estimated", "source": ""},
-  "sensors_base":         {"value": "IMU for dynamic balancing", "confidence": "estimated", "source": ""},
-  "compute":              {"value": null, "confidence": "", "source": ""},
-  "software_stack":       {"value": "full teleoperation via VR goggles + wearable sensor glove; no autonomy", "confidence": "third-party", "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"},
-  "safety_compliance":    {"value": "none (prototype)", "confidence": "estimated", "source": ""},
-  "price":                {"value": null, "confidence": "", "source": "never sold"},
-  "availability":         {"value": "n/a; single prototype, program shelved 2010", "confidence": "third-party", "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"},
-  "deployment_evidence":  {"value": "lab demos only (grasping glassware/dishes via teleop); balancing tech reused in QB telepresence robot", "confidence": "third-party", "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"},
-
-  "sources": ["https://www.techdigest.tv/2007/02/dexter_and_mont.html", "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/", "https://en.wikipedia.org/wiki/Anybots"],
-  "notes": "Very early (2007) teleop self-balancing wheeled humanoid; concept ancestor of 1X EVE / Reflex. Sibling prototype: Dexter pneumatic balancing biped."
+  "base_type": {
+    "value": "two-wheel dynamically self-balancing",
+    "confidence": "third-party",
+    "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"
+  },
+  "height_mm": {
+    "value": 1700,
+    "confidence": "third-party",
+    "source": "https://www.techdigest.tv/2007/02/dexter_and_mont.html (5ft 7in)"
+  },
+  "weight_kg": {
+    "value": 72.6,
+    "confidence": "third-party",
+    "source": "https://www.techdigest.tv/2007/02/dexter_and_mont.html (160 lb)"
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": 7,
+    "confidence": "third-party",
+    "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/ (right arm; + 18-DoF hand)"
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "fixed torso",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": "electric balancing wheel drive; arm/hand actuation details not disclosed (Anybots also used pneumatics on Dexter)",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "end_effector": {
+    "value": "18-DoF fully articulated human-like hand (right); simpler effector on left",
+    "confidence": "third-party",
+    "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "cameras for teleoperator (VR goggles view)",
+    "confidence": "third-party",
+    "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"
+  },
+  "sensors_wrist_hand": {
+    "value": "glove-mapped joint control; sensor details not disclosed",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": "IMU for dynamic balancing",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "full teleoperation via VR goggles + wearable sensor glove; no autonomy",
+    "confidence": "third-party",
+    "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"
+  },
+  "safety_compliance": {
+    "value": "none (prototype)",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "price": {
+    "value": null,
+    "confidence": "",
+    "source": "never sold"
+  },
+  "availability": {
+    "value": "n/a; single prototype, program shelved 2010",
+    "confidence": "third-party",
+    "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"
+  },
+  "deployment_evidence": {
+    "value": "lab demos only (grasping glassware/dishes via teleop); balancing tech reused in QB telepresence robot",
+    "confidence": "third-party",
+    "source": "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/"
+  },
+  "sources": [
+    "https://www.techdigest.tv/2007/02/dexter_and_mont.html",
+    "https://singularityhub.com/2010/07/12/anybots-bipedal-and-armed-robots-on-hold-while-telepresence-launches-video/",
+    "https://en.wikipedia.org/wiki/Anybots"
+  ],
+  "notes": "[ANNEX] Reclassified to annex 2026-08-02 (user review): 2007 teleop research prototype, never productized — consistent treatment with other annexed prototype/legacy borderline entries. Very early (2007) teleop self-balancing wheeled humanoid; concept ancestor of 1X EVE / Reflex. Sibling prototype: Dexter pneumatic balancing biped."
 }
