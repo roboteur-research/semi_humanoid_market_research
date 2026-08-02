@@ -1,6 +1,6 @@
 # Operator OP1 — Ultra (Ultra Robotics)
 
-> **BORDERLINE FOR THIS STUDY: OP1 is a stationary multi-arm workcell on locking casters — a repositionable workstation, not a mobile semi-humanoid.** It pairs a large positioning arm with a dual-arm manipulation head (two smaller arms + stereo depth camera), giving a 10×10 ft work area, 0-10 ft vertical reach and ~10 lb payload from a 5×5 ft footprint on a standard 120 V outlet. Offered as RaaS at $2,500-3,000/month, it is deployed in live 3PL operations (Highline Commerce, Brooklyn — ~30% of a linear fulfillment workflow), making it the cost/uptime benchmark that mobile semi-humanoids must beat in packing/kitting.
+> **reclassified: main matrix (caster-mounted multi-arm workcell; stationarity not disqualifying, cf. NEXTAGE/Jinki) FOR THIS STUDY: OP1 is a stationary multi-arm workcell on locking casters — a repositionable workstation, not a mobile semi-humanoid.** It pairs a large positioning arm with a dual-arm manipulation head (two smaller arms + stereo depth camera), giving a 10×10 ft work area, 0-10 ft vertical reach and ~10 lb payload from a 5×5 ft footprint on a standard 120 V outlet. Offered as RaaS at $2,500-3,000/month, it is deployed in live 3PL operations (Highline Commerce, Brooklyn — ~30% of a linear fulfillment workflow), making it the cost/uptime benchmark that mobile semi-humanoids must beat in packing/kitting.
 
 | Field | Value |
 |---|---|

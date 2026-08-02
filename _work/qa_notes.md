@@ -124,3 +124,4 @@
 ## RobCo Alfie added (user catch, 2026-08-02)
 - Munich RobCo (modular kits, Sequoia/Lightspeed, $100M Series C 2026-01-29) announced bimanual humanoid-form "Alfie" 2026-04-15, Hannover Messe preview, RaaS, deployments "later this year". Base UNDISCLOSED — official render deliberately ends at waist (waist column visible). In-scope regardless (pedestal torsos qualify). Corpus now 193/181 main. Germany count 12. WATCH: reveal of lower body will determine wheeled vs pedestal classification.
 - RobCo Alfie base RESOLVED (user video tip): promo video 0:14 shows full Alfie in simulation with broad mobile-style base platform → classified "probable wheeled" [estimated]; frames archived in dossier. Watch official confirmation.
+- OP1 reclassified annex → MAIN (user consistency review): pedestal/stationary mounting not disqualifying (cf. NEXTAGE, MOTOMAN NEXT, Jinki ver.2.0); multi-arm not disqualifying (cf. iSageBot). Main matrix now 182 / annex 11.
