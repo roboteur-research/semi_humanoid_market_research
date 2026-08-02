@@ -1,0 +1,8 @@
+# Images — Nyro (Ryota Kobayashi)
+
+| Filename | Source page | Direct image URL | Caption | Licence/usage |
+|---|---|---|---|---|
+| nyro-upper-body.png | https://hackaday.io/project/204888 | https://cdn.hackaday.io/images/resize/600x600/1990741768913550766.png | Nyro semi-humanoid upper body: dual 7-DoF differential-gear arms with Amazing Hands, tripod-mounted | Maker's own project image (Hackaday.io); research use only |
+| nyro-spec-infographic.jpg | https://hackaday.io/project/204888-semi-humanoid-robot-nyro | https://cdn.hackaday.io/images/7189791768914760829.jpg | Creator's spec infographic: 7-DoF bimanual arms, 520 mm reach, 0.5 kg peak payload, 430×160×900 mm, ~8 kg, DC 24V, Intel Celeron N5105; insets show ODrive/SteadyWin actuators, Amazing Hand, miter-gear joint, e-stop | Hackaday.io project image (Ryota Kobayashi); added 2026-08-02 at user request |
+| nyro-tripod-build-photo.jpg | https://hackaday.io/project/204888-semi-humanoid-robot-nyro | https://cdn.hackaday.io/images/485201768913581609.jpg | High-resolution build photo of Nyro on video tripod — differential/miter-gear elbow joints exposed, 3D-printed shells, dual Amazing Hands (3024×4032) | Hackaday.io project image (Ryota Kobayashi); added 2026-08-02 at user request |
+| nyro-naked-internals.jpg | https://protopedia.net/ (project entry) | https://protopedia.net/pic/1e54a955-3737-4ba5-bd1e-527ad2f30654.jpg | Shell-off build state: exposed QDD motors and differential/miter gear trains in both arms, chest-mounted SBC and CAN wiring, depth camera + display head unit, tripod mount (1024×1365) | Protopedia (Japanese maker platform) project photo by Ryota Kobayashi; added 2026-08-02 at user request |

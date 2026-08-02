@@ -1,0 +1,137 @@
+{
+  "robot": "BamBot B0",
+  "robot_native": null,
+  "company": "Open-source project (Tim Qian)",
+  "company_native": null,
+  "hq_country": "Global (open source)",
+  "hq_city": null,
+  "region": "Other",
+  "status": "shipping",
+  "first_shown": "2025-03 (demo video)",
+  "target_applications": "education, hobbyist embodied-AI, browser-based robotics",
+  "base_type": {
+    "value": "wheeled (small differential base, 3D-printed)",
+    "confidence": "vendor-claimed",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "height_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": 6,
+    "confidence": "estimated",
+    "source": "SO-ARM100-derived arms; https://github.com/timqian/bambot"
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "fixed 3D-printed torso",
+    "confidence": "vendor-claimed",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": "Feetech STS3215 serial-bus servos",
+    "confidence": "vendor-claimed",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "end_effector": {
+    "value": "SO-ARM100-style parallel grippers",
+    "confidence": "estimated",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "camera (webcam-class)",
+    "confidence": "estimated",
+    "source": "https://bambot.org"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": "browser/host computer via WebSerial (feetech.js); no dedicated onboard computer required",
+    "confidence": "vendor-claimed",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "software_stack": {
+    "value": "feetech.js browser control, bambot.org in-browser sim/teleop, LeRobot-compatible",
+    "confidence": "vendor-claimed",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "safety_compliance": {
+    "value": "none (desk-scale hobby platform)",
+    "confidence": "estimated",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "price": {
+    "value": "~USD 300 in parts",
+    "confidence": "vendor-claimed",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "availability": {
+    "value": "open CAD/BOM worldwide (Apache 2.0); self-build",
+    "confidence": "vendor-claimed",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "deployment_evidence": {
+    "value": "~956 GitHub stars / 93 forks; community builds; viral demo 2025-03",
+    "confidence": "third-party",
+    "source": "https://github.com/timqian/bambot"
+  },
+  "sources": [
+    "https://bambot.org",
+    "https://github.com/timqian/bambot"
+  ],
+  "notes": "Credited as a foundation by XLeRobot. Signature contribution: feetech.js browser servo control."
+}

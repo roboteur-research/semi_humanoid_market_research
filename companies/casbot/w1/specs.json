@@ -1,0 +1,141 @@
+{
+  "robot": "CASBOT W1 / W2",
+  "robot_native": "灵贰",
+  "company": "CASBOT (Beijing Zhongke Huiling Robot Technology)",
+  "company_native": "北京中科慧灵机器人技术有限公司 / 灵宝CASBOT",
+  "hq_country": "China",
+  "hq_city": "Beijing",
+  "region": "China",
+  "status": "shipping",
+  "first_shown": "2025-06 (JD.com listing ~2025-06-16; WAIC 2025 public debut 2025-07-26)",
+  "target_applications": "commercial interaction: mall shopping guide, exhibitions, culture/entertainment; family's wheeled W1/W2 target retail, sorting/logistics, packaging QC, factory handling",
+  "base_type": {
+    "value": "bipedal legs (NOTE: discovery misclassified 02 as wheeled; the wheeled semi-humanoids are CASBOT W1/W2 — dual-arm on multi-stage lifting chassis)",
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "height_mm": {
+    "value": 1630,
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "weight_kg": {
+    "value": 55,
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "dof_total": {
+    "value": 33,
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008 (one syndicated report says 36; discrepancy unresolved)"
+  },
+  "dof_per_arm": {
+    "value": 7,
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008 (stated for W1 arms; 02 per-arm DoF not itemized)"
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "02: none (biped); W1/W2: multi-stage lifting chassis, travel not disclosed",
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": "sibling CASBOT 01 claimed >4 h (https://www.qbitai.com/2024/11/218675.html)"
+  },
+  "actuators": {
+    "value": "self-developed bionic joints; fast battery-swap modules",
+    "confidence": "vendor-claimed",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "end_effector": {
+    "value": "multi-functional bionic dexterous hands; dual-finger twisting, inter-finger grasping, sub-millimeter precision claimed",
+    "confidence": "vendor-claimed",
+    "source": "https://www.qbitai.com/2024/10/213641.html"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "visor stereo/depth camera module, face recognition, voiceprint ID, mic array; additional chest camera module",
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "sensors_wrist_hand": {
+    "value": "force/position hybrid control implies arm force sensing; details not disclosed",
+    "confidence": "estimated",
+    "source": "https://www.qbitai.com/2024/10/213641.html"
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": "275 TOPS onboard AI compute",
+    "confidence": "third-party",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "software_stack": {
+    "value": "CASBOT Embodied Brain (hierarchical end-to-end, VLA-style; v2.0 on W1), AI-agent natural-language tasking, OTA; real/virtual hybrid training pipeline; 02 Lite sold as open dev platform",
+    "confidence": "vendor-claimed",
+    "source": "https://www.geekpark.net/news/352008"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": "from RMB 328,800 on JD.com (02); 02 Lite dev platform RMB 99,000 promo (2026)",
+    "confidence": "third-party",
+    "source": "https://news.qq.com/rain/a/20250627A02C7J00"
+  },
+  "availability": {
+    "value": "China; JD.com self-operated flagship store + direct",
+    "confidence": "third-party",
+    "source": "https://news.qq.com/rain/a/20250627A02C7J00"
+  },
+  "deployment_evidence": {
+    "value": "first JD orders within 48h of June 2025 listing; family robots working on Lenovo notebook assembly line; CASBOT Mini 50-unit batch sold out; W1 industrial pilots/demos",
+    "confidence": "third-party",
+    "source": "https://news.qq.com/rain/a/20250627A02C7J00"
+  },
+  "sources": [
+    "https://news.qq.com/rain/a/20250627A02C7J00",
+    "https://www.geekpark.net/news/352008",
+    "https://finance.sina.com.cn/jjxw/2025-06-27/doc-infcnmtt2807963.shtml",
+    "https://www.robothub.app/zh/companies/casbot",
+    "https://www.qbitai.com/2024/10/213641.html",
+    "https://www.qbitai.com/2024/11/218675.html"
+  ],
+  "notes": "DISCOVERY CORRECTION: CASBOT 02 is a full-size BIPED; the wheeled semi-humanoid line is CASBOT W1 (WAIC 2025) / W2 (2026): dual 7-DoF humanoid arms + multi-stage lifting chassis, sub-mm precision, -20C validated. DoF reported as 33 (GeekPark) or 36 (xhby) — unresolved. Status 'shipping' reflects confirmed retail orders; volume unknown. FOLDER RENAMED from casbot-02 during QA: CASBOT 02 is the biped; the wheeled semi-humanoids are W1 (WAIC 2025) and W2 (2026)."
+}

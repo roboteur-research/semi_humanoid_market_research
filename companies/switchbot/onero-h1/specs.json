@@ -1,0 +1,43 @@
+{
+  "robot": "Onero H1",
+  "robot_native": "Onero H1",
+  "company": "SwitchBot (OneRobotics)",
+  "company_native": "深圳悟空/OneRobotics (ex-Wonderlabs)",
+  "hq_country": "China",
+  "hq_city": "Shenzhen",
+  "region": "China",
+  "status": "announced",
+  "first_shown": "2026-01 (CES 2026)",
+  "target_applications": "household chores (laundry folding, dishes, window wiping), smart-home orchestration, companionship",
+
+  "base_type":            {"value": "cylindrical wheeled base (vacuum-robot-style puck; drive layout not disclosed)", "confidence": "third-party", "source": "https://switch-bot.com/products/onero-h1"},
+  "height_mm":            {"value": 1300, "confidence": "third-party", "source": "CES 2026 press aggregate"},
+  "weight_kg":            {"value": 40, "confidence": "third-party", "source": "CES 2026 press aggregate"},
+  "dof_total":            {"value": null, "confidence": "", "source": "22 DoF in arms+hands only disclosed"},
+  "dof_per_arm":          {"value": null, "confidence": "", "source": ""},
+  "reach_mm":             {"value": null, "confidence": "", "source": ""},
+  "payload_per_arm_kg":   {"value": null, "confidence": "", "source": ""},
+  "payload_total_kg":     {"value": null, "confidence": "", "source": ""},
+  "torso_lift":           {"value": "fixed column torso (no lift disclosed)", "confidence": "estimated", "source": "https://switch-bot.com/products/onero-h1 (product render)"},
+  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
+  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
+  "runtime_h":            {"value": null, "confidence": "", "source": ""},
+  "actuators":            {"value": null, "confidence": "", "source": ""},
+  "end_effector":         {"value": "5-finger dexterous hands (both arms); 22 DoF combined arms+hands", "confidence": "third-party", "source": "CES 2026 press aggregate"},
+  "media_at_flange":      {"value": null, "confidence": "", "source": ""},
+  "sensors_head":         {"value": "Intel RealSense depth cameras in head; expressive eye display", "confidence": "third-party", "source": "CES 2026 press aggregate"},
+  "sensors_wrist_hand":   {"value": "RealSense cameras in arms/hands", "confidence": "third-party", "source": "CES 2026 press aggregate"},
+  "sensors_base":         {"value": "abdomen camera; base navigation sensors (vacuum-robot heritage)", "confidence": "estimated", "source": "CES 2026 press aggregate"},
+  "compute":              {"value": "on-device inference (chipset not disclosed)", "confidence": "third-party", "source": "CES 2026 press aggregate"},
+  "software_stack":       {"value": "OmniSense on-device VLA; continuous learning; SwitchBot ecosystem hub (Matter / Home Assistant compatible ecosystem)", "confidence": "vendor-claimed", "source": "https://switch-bot.com/products/onero-h1"},
+  "safety_compliance":    {"value": null, "confidence": "", "source": ""},
+  "price":                {"value": "USD 9,999 official store listing ('coming soon'); CES press cited $1,000-1,500 target (unreconciled)", "confidence": "vendor-claimed", "source": "https://switch-bot.com/products/onero-h1"},
+  "availability":         {"value": "waitlist/pre-order notify; retail launch promised later 2026; global D2C", "confidence": "vendor-claimed", "source": "https://switch-bot.com/products/onero-h1"},
+  "deployment_evidence":  {"value": "CES 2026 live demos only (laundry folding, dishes); pre-production 'lab' status; no customer deployments", "confidence": "third-party", "source": "CES 2026 press aggregate"},
+
+  "sources": [
+    "https://switch-bot.com/products/onero-h1",
+    "https://lite.duckduckgo.com/lite/?q=SwitchBot+Onero+H1+CES+2026+robot+price+specs"
+  ],
+  "notes": "KEY CONTRADICTION vs discovery notes: official store price is USD 9,999, not $1,000-1,500 (that range circulated in CES press as target/aspiration). Parent rebranded to OneRobotics; HK IPO filed 2026."
+}

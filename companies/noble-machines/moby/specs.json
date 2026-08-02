@@ -1,0 +1,140 @@
+{
+  "robot": "Moby",
+  "robot_native": null,
+  "company": "Noble Machines (ex-Under Control Robotics)",
+  "company_native": null,
+  "hq_country": "USA",
+  "hq_city": "Sunnyvale, CA",
+  "region": "USA",
+  "status": "prototype",
+  "first_shown": "2026-03 (stealth exit; 3rd-gen hardware)",
+  "target_applications": "construction, manufacturing, semiconductor, energy, mining, logistics; hazardous/outdoor material handling",
+  "base_type": {
+    "value": "BIPEDAL/legged (NOT wheeled - contradicts discovery classification)",
+    "confidence": "third-party",
+    "source": "https://www.aparobot.com/robots/moby + vendor 'walking speed' + TRR photos"
+  },
+  "height_mm": {
+    "value": 1700,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/moby/"
+  },
+  "weight_kg": {
+    "value": 45,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/moby/ (aparobot: 45-70 kg by config)"
+  },
+  "dof_total": {
+    "value": 34,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/moby/"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 23,
+    "confidence": "vendor-claimed",
+    "source": "https://www.noblemachines.ai/ (23kg/50lb carry; TRR 27kg/60lb lift; humanoid.guide 9kg - conflicting)"
+  },
+  "torso_lift": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": 0.8,
+    "confidence": "vendor-claimed",
+    "source": "https://www.noblemachines.ai/ (walking speed)"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 5,
+    "confidence": "vendor-claimed",
+    "source": "https://www.noblemachines.ai/"
+  },
+  "actuators": {
+    "value": "brushless motors + harmonic/planetary gears",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/moby/"
+  },
+  "end_effector": {
+    "value": "modular hands; dexterous multi-finger hands (10 finger DoF)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.noblemachines.ai/"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": "NVIDIA Jetson Orin edge AI",
+    "confidence": "third-party",
+    "source": "https://www.aparobot.com/robots/moby"
+  },
+  "software_stack": {
+    "value": "Linux/Ubuntu + ROS; whole-body AI control; multi-modal learning (language, demonstration, gesture); teleop mode; LLM integration",
+    "confidence": "third-party",
+    "source": "https://www.aparobot.com/robots/moby"
+  },
+  "safety_compliance": {
+    "value": "'safe with humans' claimed; IP20; no certifications",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/moby/"
+  },
+  "price": {
+    "value": "USD 75,000 (aggregator, unverified; vendor undisclosed)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/moby/"
+  },
+  "availability": {
+    "value": "dev platform access + limited RaaS pilots run by Noble team",
+    "confidence": "vendor-claimed",
+    "source": "https://www.noblemachines.ai/"
+  },
+  "deployment_evidence": {
+    "value": "claimed first deployment at unnamed Fortune Global 500 industrial customer within 18 months of founding; no independent verification",
+    "confidence": "vendor-claimed",
+    "source": "https://www.therobotreport.com/noble-machines-exits-stealth-with-moby-humanoid/"
+  },
+  "sources": [
+    "https://www.therobotreport.com/noble-machines-exits-stealth-with-moby-humanoid/",
+    "https://humanoid.guide/product/moby/",
+    "https://www.noblemachines.ai/",
+    "https://www.aparobot.com/robots/moby",
+    "https://www.crunchbase.com/organization/noble-machines"
+  ],
+  "notes": "[ANNEX] SCOPE: bipedal legged humanoid, not a wheeled semi-humanoid - discovery note '9kg lift, wheeled' was wrong on both counts (payload 23-27 kg vendor/TRR). Founded 2024 as Under Control Robotics; CEO Wei Ding; investors Centre Street, Nirman, Oakseed, Paperjet, South Park Commons. EXCLUDED-BIPED: vendor confirms walking (0.8 m/s); keep in excluded annex only."
+}

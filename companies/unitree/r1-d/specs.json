@@ -1,0 +1,43 @@
+{
+  "robot": "R1-D",
+  "robot_native": "宇树R1-D双臂机器人",
+  "company": "Unitree Robotics",
+  "company_native": "宇树科技",
+  "hq_country": "China",
+  "hq_city": "Hangzhou",
+  "region": "China",
+  "status": "shipping",
+  "first_shown": "2026-05",
+  "target_applications": "research/data collection, education, manipulation development, light service",
+
+  "base_type":            {"value": "dual-arm upper body; fixed bench base (A5/A7) or wheeled base with telescoping column (A5-D/A7-D, 3-DoF chassis)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "height_mm":            {"value": "683 collapsed - 1600 extended (mobile SKUs); fixed SKUs 700/835 tall units", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "weight_kg":            {"value": "~11 (A5) / ~13 (A7) / ~30 (A5-D) / ~32 (A7-D)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "dof_total":            {"value": "15 (A5) / 19 (A7) / 18 (A5-D) / 22 (A7-D)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "dof_per_arm":          {"value": "5 or 7", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "reach_mm":             {"value": "arm length 420 (A5) / 555 (A7)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "payload_per_arm_kg":   {"value": "2-4 (max)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "payload_total_kg":     {"value": null, "confidence": "", "source": ""},
+  "torso_lift":           {"value": "telescoping column 683-1600 mm (mobile); waist yaw 1 DoF ±150° fixed / ±35° mobile; head 2 DoF (±115° yaw, ±36° pitch)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
+  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
+  "runtime_h":            {"value": 1.5, "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "actuators":            {"value": "Unitree in-house joint motors (R1 biped lineage); shoulder joint torque up to 60 Nm", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "end_effector":         {"value": "gripper (±0.1 mm accuracy claim); optional wrist camera; Dex5 hand ecosystem compatibility (confirm per SKU)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "media_at_flange":      {"value": null, "confidence": "", "source": ""},
+  "sensors_head":         {"value": "binocular camera 1280x720@30Hz RGB, 146° HFOV; 4-mic array; 2x 3W speakers", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "sensors_wrist_hand":   {"value": "optional wrist camera", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "sensors_base":         {"value": null, "confidence": "", "source": ""},
+  "compute":              {"value": "body 8-core CPU; head 8-core CPU + 10 TOPS accelerator; WiFi 6, BT 5.2", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "software_stack":       {"value": "Unitree SDK, secondary development, OTA; no bundled autonomy/VLA stack", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "safety_compliance":    {"value": null, "confidence": "", "source": ""},
+  "price":                {"value": "from RMB 26,900 / USD 4,290 (R1-A5)", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "availability":         {"value": "global webshop + distributors; shipping since May 2026", "confidence": "vendor-claimed", "source": "https://www.unitree.com/mobile/R1-D/"},
+  "deployment_evidence":  {"value": "launch-quarter product, no named customers yet; company shipped >5,500 humanoids in 2025 (32.4% global unit share)", "confidence": "third-party", "source": "https://finance.sina.cn/stock/jdts/2026-05-01/detail-inhwkimm6728813.d.html"},
+
+  "sources": [
+    "https://www.unitree.com/mobile/R1-D/",
+    "https://finance.sina.cn/stock/jdts/2026-05-01/detail-inhwkimm6728813.d.html"
+  ],
+  "notes": "First non-biped Unitree. Sina reported DoF range 15-31 (possibly counting grippers), Unitree page arithmetic gives 15/19/18/22 — flagged. IPO: STAR filing Mar 2026, CSRC approval 2026-07-03, ~$610M raise, ~$6B valuation; FY2025 GM 60.27%."
+}

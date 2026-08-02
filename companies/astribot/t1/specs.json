@@ -1,0 +1,140 @@
+{
+  "robot": "T1",
+  "robot_native": "Astribot T1",
+  "company": "Astribot / Stardust Intelligence",
+  "company_native": "星尘智能",
+  "hq_country": "China",
+  "hq_city": "Shenzhen",
+  "region": "China",
+  "status": "shipping",
+  "first_shown": "2026-05 (launch reported 05-27/28/29); first shipment 2026-06-01",
+  "target_applications": "research/education, data collection, commercial service demos, home-adjacent tasks",
+  "base_type": {
+    "value": "wheeled (compact base)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "height_mm": {
+    "value": 1550,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "weight_kg": {
+    "value": 66,
+    "confidence": "third-party",
+    "source": "https://www.guijicankao.com/products/astribot-astribot-t1"
+  },
+  "dof_total": {
+    "value": 23,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": 5,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": 1.4,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": "4-6",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "actuators": {
+    "value": "cable/tendon-driven transmission (torso-mounted motors), Astribot signature rope-drive",
+    "confidence": "third-party",
+    "source": "https://www.guijicankao.com/products/astribot-astribot-t1"
+  },
+  "end_effector": {
+    "value": "interchangeable: parallel gripper or 5-finger dexterous hands (8 DoF per hand)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "stereo camera head unit (from imagery)",
+    "confidence": "estimated",
+    "source": "https://humanoid.guide/product/astribot-t1/"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "imitation learning from human demonstration data; Astribot Suite teleop+learning lineage; charging <1h",
+    "confidence": "third-party",
+    "source": "https://baike.baidu.com/en/item/Astribot%20T1/1694932"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": "from RMB 89,900 (~USD 13k); higher-spec variant ~RMB 99,000 reported | Western reseller (robotsinternational.com) lists $40,950 — ~3x China launch price (export markup)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/astribot-t1/ ; https://www.robotsinternational.com/Astribot-T1.htm"
+  },
+  "availability": {
+    "value": "orders open; shipping since 2026-06-01; Wuxi factory volume production from 07/2026",
+    "confidence": "third-party",
+    "source": "https://baike.baidu.com/en/item/Astribot%20T1/1694932"
+  },
+  "deployment_evidence": {
+    "value": "first unit shipped 2026-06-01; mass production reported from 2026-07-09 (Wuxi); no named T1 customers public yet",
+    "confidence": "third-party",
+    "source": "https://baike.baidu.com/en/item/Astribot%20T1/1694932"
+  },
+  "sources": [
+    "https://humanoid.guide/product/astribot-t1/",
+    "https://www.guijicankao.com/products/astribot-astribot-t1",
+    "https://baike.baidu.com/en/item/Astribot%20T1/1694932",
+    "https://humanoid.press/database/astribot-t1/",
+    "https://www.robotsinternational.com/Astribot-T1.htm"
+  ],
+  "notes": "Height conflict: 1.55m (most sources) vs 1.53m (Baidu Baike). Launch date reported variously 2026-05-27/28/29. DoF 23 excludes end-effectors; hands add 16 DoF (8 each)."
+}

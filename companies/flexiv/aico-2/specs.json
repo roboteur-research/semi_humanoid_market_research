@@ -1,0 +1,43 @@
+{
+  "robot": "AICO 2",
+  "robot_native": "爱可 AICO 2",
+  "company": "Flexiv",
+  "company_native": "非夕科技",
+  "hq_country": "China",
+  "hq_city": "Shanghai",
+  "region": "China",
+  "status": "announced",
+  "first_shown": "2025 (AICO 2 listing); MICO sibling demoed ICRA 2026-06 Vienna",
+  "target_applications": "embodied-AI R&D platform, force-sensitive industrial automation (assembly, polishing, tending), lab automation",
+
+  "base_type":            {"value": "dual-wheel differential-drive AMR base, laser SLAM", "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system"},
+  "height_mm":            {"value": null, "confidence": "", "source": ""},
+  "weight_kg":            {"value": 281, "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system (AICO 2-4; AICO 2-10: 395kg)"},
+  "dof_total":            {"value": null, "confidence": "", "source": "arms 2x7 disclosed; head/torso DoF not itemized"},
+  "dof_per_arm":          {"value": 7, "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system"},
+  "reach_mm":             {"value": 780, "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system (AICO 2-4; 2-10: 845mm)"},
+  "payload_per_arm_kg":   {"value": 4, "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system (AICO 2-4; 2-10 config: 10kg/arm)"},
+  "payload_total_kg":     {"value": 8, "confidence": "estimated", "source": "2x4kg (2-4 config); 2-10 config 20kg"},
+  "torso_lift":           {"value": "none disclosed (fixed torso)", "confidence": "estimated", "source": "https://www.flexiv.com/product/robot-system"},
+  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
+  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
+  "runtime_h":            {"value": 6, "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system (2-4 config; 2-10: 4h)"},
+  "actuators":            {"value": "Rizon-heritage torque-controlled joints, full joint torque sensing", "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system"},
+  "end_effector":         {"value": "flange-mounted tooling; Flexiv Grav gripper optional", "confidence": "vendor-claimed", "source": "https://www.flexiv.com/"},
+  "media_at_flange":      {"value": null, "confidence": "", "source": ""},
+  "sensors_head":         {"value": "head sensor/camera unit (not itemized)", "confidence": "estimated", "source": "https://www.flexiv.com/product/robot-system"},
+  "sensors_wrist_hand":   {"value": "joint torque sensing all axes; force sensing accuracy 0.1N/0.03N", "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system"},
+  "sensors_base":         {"value": "laser SLAM lidar", "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system"},
+  "compute":              {"value": null, "confidence": "", "source": ""},
+  "software_stack":       {"value": "Flexiv RDK (1 kHz real-time control), Elements software, AI force-adaptive skills", "confidence": "vendor-claimed", "source": "https://www.flexiv.com/product/robot-system"},
+  "safety_compliance":    {"value": "compliant force-controlled arms, collision detection; certifications not published", "confidence": "vendor-claimed", "source": "https://www.flexiv.com/"},
+  "price":                {"value": null, "confidence": "", "source": ""},
+  "availability":         {"value": "direct from Flexiv (CN/US/EU); development-platform positioning; one tracker lists 'commercially available'", "confidence": "third-party", "source": "lite.duckduckgo.com aggregate"},
+  "deployment_evidence":  {"value": "no named AICO 2 deployments; MICO demoed ICRA 2026; company's Rizon arms widely deployed", "confidence": "third-party", "source": "lite.duckduckgo.com aggregate"},
+
+  "sources": [
+    "https://www.flexiv.com/product/robot-system",
+    "https://www.therobotreport.com/flexiv-raises-more-than-100m-for-adaptive-robots/"
+  ],
+  "notes": "Pose repeatability ±0.05mm (vendor). Two configs: AICO 2-4 (2x4kg, 780mm, 281kg, 6h) and AICO 2-10 (2x10kg, 845mm, 395kg, 4h). MICO stationary sibling: 2x7DoF, 2x5kg, 752mm, ~150cm, 53-79kg (Armor/Core/Plus/Ultra), ICRA 2026, in development."
+}

@@ -1,0 +1,10 @@
+# Mirokai — image log
+
+| Filename | Source page | Direct image URL | Caption | Licence / usage note |
+|---|---|---|---|---|
+| mirokai-2026-official-render.jpg | https://enchanted.tools/robot | https://images.prismic.io/enchanted-tools/aivFHKlQnVZVEROj_A7409094.png?auto=format,compress&w=1400 | Official studio photo of the 2026 commercial-V1 Miroki (upper body, profile): projected-screen face, articulated ears, enclosed shell, shoulder carry-handle with red e-stop button. | Vendor marketing image (Enchanted Tools press/site CDN). Research use; not for redistribution. |
+| miroka-new-design-studio.png | https://enchanted.tools/robot | https://images.prismic.io/enchanted-tools/KgH5as6wolUBfiM9_Miroka_Newdesign_buy.png?auto=format,compress&w=1400 | Official full-body front view of the redesigned Miroka character showing the ballbot base: black sphere with omni-wheel drive housing and surrounding sensor ring. | Vendor marketing image (Enchanted Tools site CDN). Research use; not for redistribution. |
+| miroki-icm-hospital-montpellier.jpg | https://enchanted.tools/events/icm | https://images.prismic.io/enchanted-tools/aXDabwIvOtkhBxks_Giorgia-Miroki_HD_Credit_Henri_Frasque.jpg?auto=format,compress&w=1400 | Non-marketing deployment photo: Miroki with a pediatric patient in the radiotherapy suite at Institut du Cancer de Montpellier (world-first use inside a treatment room). | Photo © Henri Frasque, published in Enchanted Tools case study. Editorial/research use with credit. |
+| miroki-lyon-airport-deployment.jpg | https://enchanted.tools/events/adl | https://images.prismic.io/enchanted-tools/ajApfI1P9HI4UhhF_image00014.jpg?auto=format,compress&w=1400 | Non-marketing deployment photo: Miroki on its ball base at a passenger-assistance stand in Lyon-Saint Exupéry Airport Terminal 1 (VINCI Airports pilot, Nov-Dec 2025); ring base and hands clearly visible. | Enchanted Tools / Lyon Aéroport case-study photo. Editorial/research use. |
+
+All four files verified with `file` as JPEG/PNG image data, each >50 KB.

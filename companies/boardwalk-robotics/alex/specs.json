@@ -1,0 +1,43 @@
+{
+  "robot": "Alex",
+  "robot_native": null,
+  "company": "Boardwalk Robotics",
+  "company_native": null,
+  "hq_country": "USA",
+  "hq_city": "Pensacola",
+  "region": "USA",
+  "status": "shipping",
+  "first_shown": "August 2024",
+  "target_applications": "manufacturing, food processing, logistics, maintenance, aviation MRO; research platforms",
+
+  "base_type":            {"value": "pedestal (fixed) or third-party AMR mounting; no built-in locomotion", "confidence": "third-party", "source": "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid"},
+  "height_mm":            {"value": null, "confidence": "", "source": ""},
+  "weight_kg":            {"value": null, "confidence": "", "source": ""},
+  "dof_total":            {"value": 19, "confidence": "third-party", "source": "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid"},
+  "dof_per_arm":          {"value": null, "confidence": "", "source": ""},
+  "reach_mm":             {"value": null, "confidence": "", "source": ""},
+  "payload_per_arm_kg":   {"value": null, "confidence": "", "source": ""},
+  "payload_total_kg":     {"value": 10, "confidence": "third-party", "source": "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid"},
+  "torso_lift":           {"value": "fixed torso (waist DoF within 19 total; details n/a)", "confidence": "estimated", "source": ""},
+  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
+  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
+  "runtime_h":            {"value": null, "confidence": "", "source": ""},
+  "actuators":            {"value": "proprietary electric actuators, low gear ratios, joint speeds to 9 rad/s, torque control without dedicated torque sensors; 300-degree wrist rotation", "confidence": "third-party", "source": "IEEE Spectrum-derived spec coverage"},
+  "end_effector":         {"value": "interchangeable grippers; improved generation with faster tool changes announced", "confidence": "third-party", "source": "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid"},
+  "media_at_flange":      {"value": null, "confidence": "", "source": ""},
+  "sensors_head":         {"value": "head camera suite (details not disclosed)", "confidence": "estimated", "source": ""},
+  "sensors_wrist_hand":   {"value": null, "confidence": "", "source": ""},
+  "sensors_base":         {"value": "depends on third-party AMR", "confidence": "estimated", "source": ""},
+  "compute":              {"value": null, "confidence": "", "source": ""},
+  "software_stack":       {"value": null, "confidence": "", "source": ""},
+  "safety_compliance":    {"value": null, "confidence": "", "source": ""},
+  "price":                {"value": null, "confidence": "", "source": ""},
+  "availability":         {"value": "purchasable by researchers now; commercial pilots (aviation MRO first)", "confidence": "third-party", "source": "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid"},
+  "deployment_evidence":  {"value": "research-institution sales; aviation MRO pilot; carbon-fiber sanding demo", "confidence": "third-party", "source": "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid"},
+
+  "sources": [
+    "https://spectrum.ieee.org/boardwalk-robotics-alex-humanoid",
+    "https://www.boardwalkrobotics.com/"
+  ],
+  "notes": "IHMC lineage (Nadia humanoid); arms derived from Nadia design; legs on roadmap. Official website broken (parked Nicepage page) as of Aug 2026 — vendor-side verification impossible this session."
+}

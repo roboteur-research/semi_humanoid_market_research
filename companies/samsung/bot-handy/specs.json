@@ -1,0 +1,139 @@
+{
+  "robot": "Bot Handy",
+  "robot_native": "삼성 봇 핸디",
+  "company": "Samsung Research (Samsung Electronics)",
+  "company_native": "삼성리서치",
+  "hq_country": "South Korea",
+  "hq_city": "Seoul",
+  "region": "Korea",
+  "status": "prototype",
+  "first_shown": "2021-01 (CES 2021)",
+  "target_applications": "household chores: dish/tableware handling, laundry pickup, tidying, pouring drinks",
+  "base_type": {
+    "value": "wheeled cylindrical base (drive type not disclosed); single-arm concept (borderline semi-humanoid)",
+    "confidence": "vendor-claimed",
+    "source": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot"
+  },
+  "height_mm": {
+    "value": null,
+    "confidence": "estimated",
+    "source": "visual estimate ~1300-1500mm from demo footage; never disclosed"
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "arm elevation mechanism on body rail ('extended workspace via mobility and elevation')",
+    "confidence": "vendor-claimed",
+    "source": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "end_effector": {
+    "value": "single 2-finger gripper with compliant pads",
+    "confidence": "vendor-claimed",
+    "source": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "cameras for AI object recognition (incl. transparent/occluded objects); details not disclosed",
+    "confidence": "vendor-claimed",
+    "source": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "proprietary Samsung Research AI (grasp planning, object recognition, task sequencing); no SDK",
+    "confidence": "vendor-claimed",
+    "source": "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "availability": {
+    "value": "never commercialized; CES 2021/2022 concept demos only",
+    "confidence": "third-party",
+    "source": "https://news.samsung.com/global/tag/samsung-bot-handy"
+  },
+  "deployment_evidence": {
+    "value": "none; stage demos only. 'Bot Handy 2' dual-arm+Gemini claims are single-source (originofbots.com), unverified",
+    "confidence": "estimated",
+    "source": "https://www.originofbots.com/robot/samsung-bot-handy-2-detail-review-specification-comparision"
+  },
+  "sources": [
+    "https://research.samsung.com/news/-CES-2022-Samsung-Research-New-Tech-Trio-Samsung-Bot-Handy-Housework-robot",
+    "https://news.samsung.com/global/tag/samsung-bot-handy",
+    "https://www.originofbots.com/robot/samsung-bot-handy-2-detail-review-specification-comparision",
+    "https://news.samsung.com/us/samsung-unveil-new-ai-connected-living-lineup-ces-2026"
+  ],
+  "notes": "[ANNEX] Borderline: single-arm concept, included for Samsung-strategy context. Samsung's real semi-humanoid position runs via 35% subsidiary Rainbow Robotics (RB-Y1) — see companies/rainbow-robotics/."
+}

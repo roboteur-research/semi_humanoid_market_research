@@ -1,0 +1,138 @@
+{
+  "robot": "EMIEW3",
+  "robot_native": "エミュー3",
+  "company": "Hitachi",
+  "company_native": "株式会社日立製作所",
+  "hq_country": "Japan",
+  "hq_city": "Tokyo",
+  "region": "Japan",
+  "status": "discontinued",
+  "first_shown": "2016-04-08 (EMIEW 2005, EMIEW2 2007)",
+  "target_applications": "customer service, multilingual guidance, reception (airports, stations, retail, banks); BORDERLINE: gestural arms only, no manipulation",
+  "base_type": {
+    "value": "wheeled: drive wheels + small casters per foot; EMIEW lineage two-wheel self-balancing; autonomous fall recovery",
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/"
+  },
+  "height_mm": {
+    "value": 900,
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/"
+  },
+  "weight_kg": {
+    "value": 15,
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/"
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": 0,
+    "confidence": "estimated",
+    "source": "gestural arms only, no grasping"
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "fixed",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": 1.67,
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/ (6 km/h)"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "end_effector": {
+    "value": "none (gesture hands)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "14-channel microphone array, HD cameras",
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": "laser range finders, gyroscopes",
+    "confidence": "third-party",
+    "source": "https://www.aparobot.com/robots/emiew3"
+  },
+  "compute": {
+    "value": "lightweight onboard + cloud 'remote brain' (robotics IT platform)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/"
+  },
+  "software_stack": {
+    "value": "Hitachi robotics IT platform: off-board vision analytics, dialogue, multi-robot coordination, multilingual speech",
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachi.com/en/press/articles/2016/04/0408/"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": "never sold",
+    "confidence": "third-party",
+    "source": "program ended without commercialization"
+  },
+  "availability": {
+    "value": "none; program quiet since ~2018-19, 2018 commercialization target missed",
+    "confidence": "third-party",
+    "source": "https://www.hitachihyoron.com/rev/archive/2017/r2017_04/eC_EDGE_3/index.html"
+  },
+  "deployment_evidence": {
+    "value": "PoCs only: Haneda Airport multilingual guidance (2016-17), rail stations, financial institutions",
+    "confidence": "vendor-claimed",
+    "source": "https://www.hitachihyoron.com/rev/archive/2017/r2017_04/eC_EDGE_3/index.html"
+  },
+  "sources": [
+    "https://www.hitachi.com/en/press/articles/2016/04/0408/",
+    "https://www.hitachihyoron.com/rev/archive/2017/r2017_04/eC_EDGE_3/index.html",
+    "https://spectrum.ieee.org/hitachi-upgrades-emiew-robot-to-help-clueless-american-tourists"
+  ],
+  "notes": "[ANNEX] Borderline inclusion: no manipulation capability. EMIEW = Excellent Mobility and Interactive Existence as Workmate. Original 2005 EMIEW debuted at Aichi Expo alongside wakamaru."
+}

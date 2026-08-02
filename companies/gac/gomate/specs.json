@@ -1,0 +1,137 @@
+{
+  "robot": "GoMate",
+  "robot_native": "GoMate (广汽第三代具身智能机器人)",
+  "company": "GAC Group",
+  "company_native": "广汽集团",
+  "hq_country": "China",
+  "hq_city": "Guangzhou",
+  "region": "China",
+  "status": "prototype",
+  "first_shown": "2024-12-26",
+  "target_applications": "production-line inspection, security, healthcare, auto aftermarket, logistics, education",
+  "base_type": {
+    "value": "variable wheel-leg: 4-wheel mode (~1.4 m) / 2-wheel self-balancing mode (~1.75 m) — BORDERLINE",
+    "confidence": "third-party",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "height_mm": {
+    "value": "1400 (quad mode) / 1750 (upright mode)",
+    "confidence": "third-party",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": 38,
+    "confidence": "third-party",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "height change via leg reconfiguration (1.4-1.75 m)",
+    "confidence": "third-party",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 6,
+    "confidence": "vendor-claimed",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "actuators": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "end_effector": {
+    "value": "dexterous hands shown at launch; details n/a",
+    "confidence": "estimated",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": "automotive-derived perception suite (AD stack reuse)",
+    "confidence": "third-party",
+    "source": "https://autonews.gasgoo.com/articles/ev/70035533"
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "GAC autonomous-driving navigation/decision stack adapted to robot",
+    "confidence": "third-party",
+    "source": "https://autonews.gasgoo.com/articles/ev/70035533"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "availability": {
+    "value": "pilots 2025, small-volume production 2026 (announced); China",
+    "confidence": "vendor-claimed",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "deployment_evidence": {
+    "value": "launch demos; planned first use = inspection on GAC production lines; no external customers public",
+    "confidence": "vendor-claimed",
+    "source": "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/"
+  },
+  "sources": [
+    "https://cnevpost.com/2024/12/26/gac-unveils-humanoid-robot-gomate/",
+    "https://autonews.gasgoo.com/articles/ev/70035533"
+  ],
+  "notes": "[ANNEX] GAC all-solid-state battery; claimed >80% energy reduction vs comparable humanoids. Third-generation GAC embodied robot. BORDERLINE wheel-leg for study scope."
+}

@@ -1,0 +1,145 @@
+{
+  "robot": "Vega",
+  "robot_native": "Vega",
+  "company": "Dexmate, Inc.",
+  "company_native": "Dexmate",
+  "hq_country": "USA",
+  "hq_city": "Santa Clara, CA",
+  "region": "USA",
+  "status": "shipping",
+  "first_shown": "2025 (March, preorders)",
+  "target_applications": "AI/robotics research, logistics, manufacturing, retail, healthcare, education",
+  "base_type": {
+    "value": "wheeled (omni-directional)",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "height_mm": {
+    "value": 1710,
+    "confidence": "third-party",
+    "source": "https://humanoidspecs.com/robots/dexmate-vega (folds to 660 mm; extends to 2200 mm working height per vendor)"
+  },
+  "weight_kg": {
+    "value": 135,
+    "confidence": "third-party",
+    "source": "https://humanoidspecs.com/robots/dexmate-vega"
+  },
+  "dof_total": {
+    "value": 36,
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega (\"36+ DoFs\")"
+  },
+  "dof_per_arm": {
+    "value": 7,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/vega/ (vendor counts 13 DoF/arm incl. end effector)"
+  },
+  "reach_mm": {
+    "value": 2200,
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega (max working height with torso extended)"
+  },
+  "payload_per_arm_kg": {
+    "value": 4.5,
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega (\"10+ lbs per arm at any pose\"); NOTE: 15 kg/arm circulates in third-party aggregators, unverified"
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "3-DoF foldable torso; folds to 0.66 m, working range floor to 2.2 m",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "max_speed_ms": {
+    "value": 1.1,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/vega/ (4 km/h)"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 10,
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega (10+ h; >30 h with arms unloaded; aggregators cite 20-25 h)"
+  },
+  "actuators": {
+    "value": "brushless motors with harmonic gear reduction",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/vega/"
+  },
+  "end_effector": {
+    "value": "modular; 12-DoF five-finger dexterous hand option (10 fingers total) or gripper; sold separately in Vega-U config",
+    "confidence": "third-party",
+    "source": "https://humanoidspecs.com/robots/dexmate-vega"
+  },
+  "media_at_flange": {
+    "value": "n/a (not disclosed); body I/O: 4x USB 3.2, Ethernet, DisplayPort, 5V/12V rails",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "sensors_head": {
+    "value": "RGB-D + RGB cameras on 3-DoF head",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "sensors_wrist_hand": {
+    "value": "6-axis force/torque sensors (compliance control)",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "sensors_base": {
+    "value": "LiDAR, ultrasonic, IMUs",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "compute": {
+    "value": "Intel x86 CPU + NVIDIA Jetson AGX Orin (32/64 GB) at launch; 2026 page advertises NVIDIA AGX Thor",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega; https://www.aparobot.com/robots/vega"
+  },
+  "software_stack": {
+    "value": "closed-source stack; pip-installable Python SDK; URDF/USD sim assets; VR/exoskeleton teleoperation; compliance control; LLM integration; ROS compatibility per aggregators",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "safety_compliance": {
+    "value": "no certifications claimed; F/T-based compliance control marketed for safe human interaction",
+    "confidence": "estimated",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "price": {
+    "value": "USD 89,999 MSRP ($999 preorder deposit); some third-party listings cite USD 80,000; Vega-U valued at USD 45,000 excl. end effector",
+    "confidence": "third-party",
+    "source": "https://mikekalil.com/blog/dexmate-vega/"
+  },
+  "availability": {
+    "value": "orderable via shop.dexmate.ai; lead time ~3 weeks (2026), ~3 months at 2025 launch; US-centric",
+    "confidence": "vendor-claimed",
+    "source": "https://dexmate.ai/product/vega"
+  },
+  "deployment_evidence": {
+    "value": "in testing with unnamed publicly traded companies (manufacturing, logistics, retail); 6 Vega-U grant units to US universities; no public unit counts",
+    "confidence": "third-party",
+    "source": "https://robotico.market/company/dexmate"
+  },
+  "sources": [
+    "https://dexmate.ai/product/vega",
+    "https://dexmate.ai/",
+    "https://shop.dexmate.ai/products/vega",
+    "https://humanoid.guide/product/vega/",
+    "https://humanoidspecs.com/robots/dexmate-vega",
+    "https://www.aparobot.com/robots/vega",
+    "https://mikekalil.com/blog/dexmate-vega/",
+    "https://robotico.market/company/dexmate",
+    "https://www.dexmate.ai/research-grant",
+    "https://app.dealroom.co/news/feed/lg-cns-invests-in-nvidia-backed-us-robotics-startup-dexmate"
+  ],
+  "notes": "Payload conflict: vendor '10+ lbs per arm at any pose' vs widely repeated 15 kg/arm (discovery file used 15 kg). Runtime quoted variously 10+/20/25/30 h. Founders: Tao Chen (CEO, MIT PhD), Yuzhe Qin (CTO, UCSD PhD), Chongyang Wang (COO, MIT). ~$41M funding incl. LG Technology Ventures/LG CNS (Feb 2026); NVIDIA Inception; Red Dot 2025."
+}

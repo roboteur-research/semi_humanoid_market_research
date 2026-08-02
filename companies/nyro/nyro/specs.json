@@ -1,0 +1,136 @@
+{
+  "robot": "Nyro",
+  "robot_native": null,
+  "company": "Individual maker (Ryota Kobayashi)",
+  "company_native": null,
+  "hq_country": "Japan",
+  "hq_city": null,
+  "region": "Japan",
+  "status": "prototype",
+  "first_shown": "2026-01-20 (Hackaday.io project page)",
+  "target_applications": "personal R&D, imitation-learning testbed",
+  "base_type": {
+    "value": "none (upper body on camera tripod; no mobile base yet)",
+    "confidence": "vendor-claimed",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "height_mm": {
+    "value": 900,
+    "confidence": "vendor-claimed",
+    "source": "https://cdn.hackaday.io/images/7189791768914760829.jpg (creator spec infographic)"
+  },
+  "weight_kg": {
+    "value": 8,
+    "confidence": "vendor-claimed",
+    "source": "https://cdn.hackaday.io/images/7189791768914760829.jpg (creator spec infographic)"
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": 7,
+    "confidence": "vendor-claimed",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "reach_mm": {
+    "value": 520,
+    "confidence": "vendor-claimed",
+    "source": "https://cdn.hackaday.io/images/7189791768914760829.jpg (creator spec infographic)"
+  },
+  "payload_per_arm_kg": {
+    "value": 0.5,
+    "confidence": "vendor-claimed",
+    "source": "https://cdn.hackaday.io/images/7189791768914760829.jpg (creator spec infographic)"
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": "SteadyWin QDD motors + differential-gear joints; 12x ODrive Micro + 2x ODrive S1 controllers, dual CAN buses; mostly 3D-printed structure",
+    "confidence": "vendor-claimed",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "end_effector": {
+    "value": "Amazing Hand open-source 5-finger hands (Feetech servos) via custom STM32G4 CAN bridge imitating ODrive protocol",
+    "confidence": "vendor-claimed",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": "LattePanda 3 Delta x86 SBC",
+    "confidence": "vendor-claimed",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "software_stack": {
+    "value": "teleoperation via DYNAMIXEL leader arm (7-axis match); imitation learning planned",
+    "confidence": "vendor-claimed",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "safety_compliance": {
+    "value": "none (hobby build)",
+    "confidence": "estimated",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "price": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "availability": {
+    "value": "one-off personal build; not released",
+    "confidence": "vendor-claimed",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "deployment_evidence": {
+    "value": "none; project page 436 views / 5 likes (niche hobbyist visibility)",
+    "confidence": "third-party",
+    "source": "https://hackaday.io/project/204888"
+  },
+  "sources": [
+    "https://hackaday.io/project/204888"
+  ],
+  "notes": "Maker self-labels it 'semi-humanoid' — grassroots terminology datapoint. Component stack mirrors commercial semi-humanoids (QDD, dexterous hands, leader-arm teleop)."
+}

@@ -1,0 +1,138 @@
+{
+  "robot": "Alfie",
+  "robot_native": "",
+  "company": "RobCo",
+  "company_native": "",
+  "hq_country": "Germany",
+  "hq_city": "Munich",
+  "region": "Europe",
+  "status": "announced",
+  "first_shown": "2026-04-15 (Hannover Messe preview)",
+  "target_applications": "precision assembly, sensitive handling, picking/kitting/palletizing; manufacturing, F&B, logistics, automotive, defense",
+  "base_type": {
+    "value": "mobile base shown in simulation (promo video 0:14): broad floor-standing platform under waist column — wheeled/AMR-style configuration probable; not officially disclosed",
+    "confidence": "estimated",
+    "source": "https://cdn.prod.website-files.com/68f2341d705f07db40d6f962%2F69e0f099195df5399e43afae_alfie-promo%20%281%29_mp4.mp4 (frame @0:14)"
+  },
+  "height_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "waist column visible in render",
+    "confidence": "estimated",
+    "source": "https://www.rob.co/solutions/offerings/alfie"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": "presumed RobCo modular-actuator heritage (up to 8-axis kits)",
+    "confidence": "estimated",
+    "source": "https://www.rob.co"
+  },
+  "end_effector": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "head unit in render; RobVision perception",
+    "confidence": "estimated",
+    "source": "https://www.rob.co/solutions/offerings/alfie"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "Physical AI; RobFlow / RobCo Studio / RobVision; Level-4 autonomy positioning",
+    "confidence": "vendor-claimed",
+    "source": "https://www.rob.co/resources/news/press/autonomous-alfie"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": "RaaS, terms undisclosed",
+    "confidence": "vendor-claimed",
+    "source": "https://www.rob.co/resources/news/press/autonomous-alfie"
+  },
+  "availability": {
+    "value": "final development; first customer deployments planned late 2026",
+    "confidence": "vendor-claimed",
+    "source": "https://www.rob.co/resources/news/press/autonomous-alfie"
+  },
+  "deployment_evidence": {
+    "value": "none yet (Hannover Messe preview)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.rob.co/resources/news/press/autonomous-alfie"
+  },
+  "sources": [
+    "https://www.rob.co/resources/news/press/autonomous-alfie",
+    "https://www.rob.co/solutions/offerings/alfie",
+    "https://www.rob.co/resources/news/press/robco-series-c"
+  ],
+  "notes": "User-flagged addition (2026-08-02). German Munich entrant; $100M Series C 01/2026. Base: official imagery ends at waist, but promo-video simulation (0:14) shows a broad mobile-style base platform — classification: probable wheeled semi-humanoid (unconfirmed). Distinct from Prosper Robotics Alfie (London)."
+}

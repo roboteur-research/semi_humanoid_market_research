@@ -1,0 +1,43 @@
+{
+  "robot": "ILBOT",
+  "robot_native": "아이엘봇",
+  "company": "I.L",
+  "company_native": "아이엘 (formerly 아이엘사이언스 / IL Science)",
+  "hq_country": "South Korea",
+  "hq_city": null,
+  "region": "Korea",
+  "status": "prototype",
+  "first_shown": "2026-02 (production-line deployment announced 2026-02-24)",
+  "target_applications": "industrial manufacturing: injection-molding part sorting, physical-AI data collection",
+
+  "base_type":            {"value": "wheeled (legless mobile base)", "confidence": "third-party", "source": "https://en.sedaily.com/technology/2026/03/08/wheeled-semi-humanoid-robots-gain-traction-over-bipedal"},
+  "height_mm":            {"value": null, "confidence": "", "source": ""},
+  "weight_kg":            {"value": null, "confidence": "", "source": ""},
+  "dof_total":            {"value": null, "confidence": "", "source": ""},
+  "dof_per_arm":          {"value": null, "confidence": "", "source": ""},
+  "reach_mm":             {"value": null, "confidence": "", "source": ""},
+  "payload_per_arm_kg":   {"value": null, "confidence": "", "source": ""},
+  "payload_total_kg":     {"value": null, "confidence": "", "source": ""},
+  "torso_lift":           {"value": null, "confidence": "", "source": ""},
+  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
+  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
+  "runtime_h":            {"value": null, "confidence": "", "source": ""},
+  "actuators":            {"value": null, "confidence": "", "source": ""},
+  "end_effector":         {"value": "interchangeable: five-fingered hands / Omni Picker / vacuum gripper (omni-pickers used in injection-molding deployment)", "confidence": "vendor-claimed", "source": "https://en.sedaily.com/finance/2026/02/24/il-deploys-humanoid-robots-at-auto-parts-factory"},
+  "media_at_flange":      {"value": null, "confidence": "", "source": ""},
+  "sensors_head":         {"value": null, "confidence": "", "source": ""},
+  "sensors_wrist_hand":   {"value": null, "confidence": "", "source": ""},
+  "sensors_base":         {"value": null, "confidence": "", "source": ""},
+  "compute":              {"value": null, "confidence": "", "source": ""},
+  "software_stack":       {"value": null, "confidence": "", "source": ""},
+  "safety_compliance":    {"value": null, "confidence": "", "source": ""},
+  "price":                {"value": null, "confidence": "", "source": ""},
+  "availability":         {"value": "not sold; integrated data+software+operations solutions planned", "confidence": "vendor-claimed", "source": "https://en.sedaily.com/finance/2026/02/24/il-deploys-humanoid-robots-at-auto-parts-factory"},
+  "deployment_evidence":  {"value": "2 units in mass production at group affiliate IL Mobility (automotive injection-molding part sorting), from Feb 2026 — captive in-group deployment", "confidence": "third-party", "source": "https://en.sedaily.com/finance/2026/02/24/il-deploys-humanoid-robots-at-auto-parts-factory"},
+
+  "sources": [
+    "https://en.sedaily.com/finance/2026/02/24/il-deploys-humanoid-robots-at-auto-parts-factory",
+    "https://en.sedaily.com/technology/2026/03/08/wheeled-semi-humanoid-robots-gain-traction-over-bipedal"
+  ],
+  "notes": "KOSDAQ-listed (307180). ILBOT family also includes L1 MAX wheel-leg quadruped (June 2026). Data-flywheel strategy via captive factory."
+}

@@ -1,0 +1,42 @@
+{
+  "robot": "Sanbot Max (King Kong)",
+  "robot_native": "Sanbot King Kong",
+  "company": "Qihan Technology",
+  "company_native": "旗瀚科技",
+  "hq_country": "China",
+  "hq_city": "Shenzhen",
+  "region": "China",
+  "status": "discontinued",
+  "first_shown": "2017 (WRC Beijing); CES 2018",
+  "target_applications": "reception, guidance, security patrol, towing/delivery in hotels, airports, retail",
+
+  "base_type":            {"value": "four-wheel mecanum omnidirectional", "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "height_mm":            {"value": 1455, "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "weight_kg":            {"value": 100, "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "dof_total":            {"value": null, "confidence": "", "source": ""},
+  "dof_per_arm":          {"value": null, "confidence": "", "source": ""},
+  "reach_mm":             {"value": null, "confidence": "", "source": ""},
+  "payload_per_arm_kg":   {"value": null, "confidence": "", "source": ""},
+  "payload_total_kg":     {"value": "75 kg towing capacity (not arm payload)", "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "torso_lift":           {"value": "fixed", "confidence": "estimated", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "max_speed_ms":         {"value": 5, "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
+  "runtime_h":            {"value": null, "confidence": "", "source": ""},
+  "actuators":            {"value": null, "confidence": "", "source": ""},
+  "end_effector":         {"value": "two bionic arms, gesturing/simple handling; no manipulation-grade grippers", "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "media_at_flange":      {"value": "n/a", "confidence": "", "source": ""},
+  "sensors_head":         {"value": "Sony cameras, 360-degree perception, facial recognition, touchscreen", "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "sensors_wrist_hand":   {"value": null, "confidence": "", "source": ""},
+  "sensors_base":         {"value": "obstacle avoidance sensors, auto-charging dock", "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "compute":              {"value": null, "confidence": "", "source": ""},
+  "software_stack":       {"value": "Q-Link cloud platform; IBM Watson AI, Nuance voice recognition", "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "safety_compliance":    {"value": null, "confidence": "", "source": ""},
+  "price":                {"value": null, "confidence": "", "source": ""},
+  "availability":         {"value": "not available; robotics line dormant since ~2019", "confidence": "estimated", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+  "deployment_evidence":  {"value": "Sanbot line deployed at Shenzhen Bao'an airport and Gongbei Port of Entry (mainly Elf); international distributors 2016-19", "confidence": "third-party", "source": "https://en.wikipedia.org/wiki/Sanbot"},
+
+  "sources": [
+    "https://en.wikipedia.org/wiki/Sanbot"
+  ],
+  "notes": "Marketed as 'Sanbot Max' in North America, 'King Kong' elsewhere. 5 m/s speed claim likely marketing exaggeration. Sibling Sanbot Elf: 902 mm, 19 kg, IFA 2016, reception/security use."
+}

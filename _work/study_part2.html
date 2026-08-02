@@ -1,0 +1,147 @@
+<h2>2&nbsp;&nbsp;Scope, definition &amp; methodology</h2>
+<h3>Definition</h3>
+<p>A <b>semi-humanoid robot</b> has a human-like upper body — head and/or torso with
+<b>two arms</b> — whose legs are replaced by another locomotion or mounting concept:
+a wheeled base (differential, omnidirectional/mecanum, swerve, two-wheel balancing or
+ball-balancing), a tracked base, a lift column, or a fixed pedestal. SoftBank's Pepper is
+the textbook example; AgiBot's A2-W, Galbot's G1, Rainbow's RB-Y1 and Sunday's Memo are
+the 2024–26 generation. Included statuses: shipping, announced, prototype, research and
+notable discontinued systems. Excluded: bipedal humanoids, single-arm mobile manipulators
+(documented in Annex A where influential — Toyota HSR, Hello Robot Stretch), arm-only
+cobots, armless telepresence robots, and dual-arm machines without an anthropomorphic
+upper body. Wheel-leg hybrids (Tencent The Five, GAC GoMate, Hexagon AEON, Moon Dynamics
+L1) sit in the annex as borderline.</p>
+<h3>Method &amp; data quality</h3>
+<p>Research was conducted in August 2026 through multi-lingual web research (English,
+Chinese, Japanese, Korean, German, French, Spanish, Russian): official vendor
+documentation and datasheets, trade press, financial media and filings, academic papers,
+community databases, teardown/forum material, and curated robot-description repositories.
+Every robot has a dossier (company profile, technical dossier, machine-readable spec
+sheet, source-attributed imagery — all images individually visually verified). <b>Every
+spec field carries a per-field source URL and one of three confidence ratings:</b>
+<i>vendor-claimed</i> (manufacturer statement), <i>third-party</i> (independently
+reported/verified), <i>estimated</i> (inferred). The companion xlsx preserves this
+per-field register (~3,400 source rows); the color coding in its matrix mirrors these
+ratings. Conflicting figures are retained with both values flagged rather than silently
+resolved. Where a vendor discloses nothing (a frequent Chinese and stealth-startup
+pattern), fields read "n/a (not disclosed)" — absence of a number is itself signal.</p>
+<div class="warn"><b>Caveats.</b> This market moves at weeks-scale: 2026 alone brought
+the FCC action, Mobileye's $900M Mentee acquisition, Walden's $1.1B debut and several
+WAIC launches. Chinese shipment claims are frequently sell-in, not deployment
+(Interact Analysis: only ~10% of 2025 humanoid production reached real applications).
+Analyst forecasts diverge by &gt;25× for 2035; we present ranges, not point estimates.</div>
+
+<h3>Corpus at a glance</h3>
+{{STATS}}
+<p class="fnote">Main-matrix corpus: 181 robots (plus 12 borderline/excluded in Annex A).
+"Other" combines Israel, India, Russia, Turkey, the Middle East, SE Asia and
+global/open-source projects. Canada is broken out in the xlsx but merged into the
+USA &amp; Canada chapter here.</p>
+
+<h2>3&nbsp;&nbsp;What the world calls this category</h2>
+<p>No single global term has settled; procurement, patent and market searches must cover
+all of the following. Chinese usage is the most developed — and China's Mobile Robot
+(AGV/AMR) Industry Alliance published a dedicated wheeled-humanoid Blue Book in May 2026
+precisely because "the industry lacks unified standards and consensus."</p>
+<table>
+<thead><tr><th>Language</th><th>Term</th><th>Literal meaning</th><th>Prevalence / notes</th></tr></thead>
+<tbody>
+<tr><td rowspan="6">Chinese</td><td>轮式人形机器人</td><td>wheeled humanoid robot</td><td><b>Dominant.</b> Used by UBTech, CASBOT, Topstar, Robot Era; industry analyses claim wheeled models are &gt;80% of deployed "humanoids"</td></tr>
+<tr><td>半人形机器人</td><td>semi-humanoid robot</td><td>Popularized by Pudu's D7 marketing; common in media</td></tr>
+<tr><td>轮式双臂机器人</td><td>wheeled dual-arm robot</td><td>Engineering/industrial framing (Fourier GRW, Rokae Helios)</td></tr>
+<tr><td>轮臂式机器人</td><td>wheel-arm robot</td><td>Emerging (Quectel, Zerith, KNEWBOTS)</td></tr>
+<tr><td>复合机器人</td><td>composite robot</td><td>Legacy term for arm-on-AMR; adjacent category</td></tr>
+<tr><td>超人形机器人</td><td>super-humanoid</td><td>New coinage for multi-arm forms (Midea MIRO U six-arm, iSageBot four-arm)</td></tr>
+<tr><td rowspan="4">Japanese</td><td>セミヒューマノイド</td><td>semi-humanoid</td><td><b>Growing standard</b> in 2025–26 trade press (AGIRobots, Pudu coverage); replacing older 上体型</td></tr>
+<tr><td>車輪型ヒューマノイド</td><td>wheel-type humanoid</td><td>Standard trade-press term, esp. for Chinese imports</td></tr>
+<tr><td>双腕ロボット</td><td>dual-arm robot</td><td>Dominant industrial term (Yaskawa SDA, Kawasaki); mobility-agnostic</td></tr>
+<tr><td>人型重機 / アバターロボット</td><td>humanoid heavy machinery / avatar robot</td><td>Niche coinages: Jinki Ittai's railway robot; teleop category (ugo, Ory's 分身ロボット "alter-ego robot")</td></tr>
+<tr><td rowspan="2">Korean</td><td>이동형 양팔로봇</td><td>mobile dual-arm robot</td><td>Rainbow Robotics' official RB-Y1 category</td></tr>
+<tr><td>휠 휴머노이드 / 세미 휴머노이드</td><td>wheel humanoid / semi-humanoid</td><td>Trade press; Seoul Economic Daily's March 2026 "wheeled semi-humanoids gain traction" wave coverage</td></tr>
+<tr><td rowspan="2">German</td><td>semi-humanoider Roboter / humanoider Roboter auf Rädern</td><td>—</td><td>Media descriptions; also "mobiler Manipulator", "Pflege-/Assistenzroboter" (application terms), "kognitiver Roboter" (Neura/Oversonic marketing)</td></tr>
+<tr><td>Roboter-Avatar</td><td>robot avatar</td><td>Telepresence subsegment (Devanthro Robody)</td></tr>
+<tr><td>French</td><td>robot semi-humanoïde / humanoïde à roues</td><td>—</td><td>Also "robot majordome" (butler), "robot d'accueil" (reception)</td></tr>
+<tr><td>Spanish</td><td>robot semihumanoide / humanoide con ruedas</td><td>—</td><td>Also "manipulador móvil"</td></tr>
+<tr><td>English</td><td>wheeled humanoid / semi-humanoid / dual-arm mobile manipulator</td><td>—</td><td>All three common; analysts add "mobile manipulation platform"; Morgan Stanley excludes wheeled torsos from "humanoid" entirely</td></tr>
+</tbody></table>
+
+<h2 class="pb">4&nbsp;&nbsp;Market size &amp; forecasts</h2>
+<h3>The headline numbers — and why they mislead</h3>
+<p>Humanoid-robot forecasts span an extraordinary range: for 2035 alone, published
+market sizes run from ~$9B (Precedence) through Goldman Sachs' $38B TAM to ~$250B
+(Future Market Insights) — a &gt;25× spread driven by definitions, and long-horizon calls
+reach $5T by 2050 (Morgan Stanley) and $7T (Citi). Two structural facts matter more than
+any point estimate:</p>
+<ul>
+<li><b>Semi-humanoids are under-counted.</b> Morgan Stanley's definition explicitly
+excludes "a humanoid torso mounted to a wheeled AMR and other bases that remain stable
+when powered down." The deployable end of the market is thus largely invisible in the
+most-quoted numbers — upside for anyone who counts properly.</li>
+<li><b>Specialists are far more conservative than banks.</b> Interact Analysis (May
+2026): &gt;700k humanoid units/yr and ~$15B revenue by 2035, commercial-viability
+inflection ~2032; 2025 production &gt;20,000 units (10× 2024) but only ~10% deployed in
+real applications; China took &gt;90% of production. Bank of America: 18k units 2025E
+→ 1M/yr by 2030; BOM ~$35k end-2025 falling to $13–17k by 2030–35.</li>
+</ul>
+<h3>What is actually known about the wheeled segment</h3>
+<div class="kbox">
+<ul>
+<li><b>China Blue Book (AGV/AMR Industry Alliance, May 2026):</b> China wheeled-humanoid
+shipments <b>&gt;5,000 units in 2025</b>, market value <b>&gt;RMB 1.8B (~$250M)</b> —
+the only hard unit datapoint for the segment; implies wheeled ≈25–28% of Chinese
+humanoid volume <span class="conf">[third-party; derivation estimated]</span>.</li>
+<li><b>2025 humanoid actuals (all form factors):</b> Omdia counts 13,318 global
+shipments with Chinese vendors in the top six (AgiBot 5,100+, Unitree ~4,200–5,500,
+UBTech ~1,000); Xinhua/CSJ report ~18,000 China-only (+650% YoY). Counting rules differ;
+both are directionally consistent: China ≈90% of world volume.</li>
+<li><b>2026 outlook:</b> GGII forecasts 62,500 China humanoid shipments; Morgan Stanley
+doubled its 2026 China forecast to 50,000 units in June 2026; TrendForce sees &gt;700%
+YoY global growth. Chinese executives talk "100–200k level". Manufacturing deployments
+are described by China Securities Journal as "essentially all wheeled + dual-arm
+configurations, because ROI is decisive."</li>
+<li><b>Commercial-report shares conflict irreconcilably</b> (wheeled = 40.6% GMI vs
+85.3% Roots vs ~37% FMI) — use unit-level evidence, not percentage claims.</li>
+</ul></div>
+<h3>Capital formation</h3>
+<p>Humanoid startups raised <b>$6.1B across 139 deals in 2025</b> (PitchBook, +300% YoY)
+and <b>$8.6B in the first seven months of 2026</b> — 1.8× all of 2025. China alone:
+~RMB 39.8B across 325 deals in 2025 (+326%), and ≥RMB 100B invested in 2026 YTD — more
+than the previous five years combined — atop a ~RMB 1T (~$138B) 20-year state fund and
+&gt;RMB 70B of municipal funds. Semi-humanoid-relevant rounds include Galbot (~$1.15B
+lifetime, $3B valuation, backers from CATL to China's IC "Big Fund"), AgiBot (Tencent,
+BYD, LG; backdoor-listed via Shangwei), AI² Robotics (~$735M at ~$2.8–3B, July 2026),
+Astribot (unicorn, June 2026), Sunday ($1.15B), Walden ($300M seed at $1.1B), Humanoid UK
+($1.35B), Dyna (~$600M), Neura (Series C up to $1.4B, Amazon/Nvidia participation,
+confirmed June 2026), and Mobileye's $900M acquisition of Mentee. Government pull is
+Chinese policy: MIIT's 2023 guideline targets world-leading humanoid strength by 2027,
+with a reported 100,000-robot deployment goal.</p>
+
+<h2>5&nbsp;&nbsp;Why wheels: the form-factor debate</h2>
+<p>The engineering case for replacing legs is quantitative, and vendors increasingly
+make it openly:</p>
+<ul>
+<li><b>Cost.</b> Galbot founder Wang He: a wheeled chassis is ~10× cheaper than legs and
+more stable; bipedal locomotion "unnecessary… would increase costs." Wheeled entry
+prices ($4,290 Unitree R1-D; $7,999 Weave Isaac; ~$14k Astribot T1) sit an order of
+magnitude below bipedal industrial pilots.</li>
+<li><b>Energy.</b> Legged electric locomotion suffers Joule-heating losses at low
+speed/high torque. Typical bipeds run 2–4 h (Optimus V2 ~2.3 kWh ≈2 h; Unitree H1
+864 Wh &lt;4 h static); wheeled semi-humanoids run 5–16 h and increasingly hot-swap
+(AgiBot A2-W: 2 kWh, 5 h, swappable; Galbot G1: 8 h; Dexmate Vega: 10–30 h claimed).</li>
+<li><b>Safety physics &amp; certification.</b> Rodney Brooks: falling legs carry high
+kinetic energy — his prediction is that "humanoid robots will get wheels for feet."
+A statically stable base stops rather than falls on power loss, and certifies under
+existing standards today (see §14). Korea's March-2026 wave (T-Robotics: the wheeled
+hybrid is our "final form… will never build legs") and the UK's Humanoid ("wheels
+first") made this an explicit strategy, not a compromise.</li>
+<li><b>Engineering focus.</b> Budget not spent on balance goes into arms, hands and
+autonomy — the parts that earn revenue (1X's EVE-before-NEO data strategy; Dexterity's
+60 kg-lift Mech).</li>
+</ul>
+<p><b>The counter-case</b> remains real: stairs, curbs and cable-strewn floors; legs as
+a positioning system (Agility); the "little teapot" instability of a static base
+reaching far under load (Melonee Wise); and household TAM arguments that pushed 1X from
+wheeled EVE to legged NEO. The pragmatic industry answer is increasingly modular lower
+bodies (Apptronik Apollo wheeled/legged variants; AgiBot X2-N leg-wheel switching) and
+wheel-leg hybrids (Hexagon AEON, GAC GoMate) — hedges that concede the near-term economy
+of wheels.</p>

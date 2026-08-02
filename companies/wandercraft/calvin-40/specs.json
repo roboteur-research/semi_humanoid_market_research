@@ -1,0 +1,139 @@
+{
+  "robot": "Calvin-40",
+  "robot_native": "Calvin-40",
+  "company": "Wandercraft",
+  "company_native": "Wandercraft",
+  "hq_country": "France",
+  "hq_city": "Paris",
+  "region": "Europe",
+  "status": "shipping",
+  "first_shown": "June 2025 (Calvin gen-1 April 2025)",
+  "target_applications": "automotive manufacturing heavy lifting: tires, panels, intralogistics",
+  "base_type": {
+    "value": "BIPEDAL (two legs, headless) — EXCLUDED from semi-humanoid scope; 'wheeled' survey claim disproven",
+    "confidence": "third-party",
+    "source": "https://insideevs.com/news/790259/renault-wandercraft-humanoid-robot-ev-factory/"
+  },
+  "height_mm": {
+    "value": 1700,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "weight_kg": {
+    "value": 80,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "dof_total": {
+    "value": 28,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/ (incl. 10 in hands; one source cites 32)"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 40,
+    "confidence": "third-party",
+    "source": "https://insideevs.com/news/790259/renault-wandercraft-humanoid-robot-ev-factory/ (lifts 40 kg several hundred times/day)"
+  },
+  "torso_lift": {
+    "value": "n/a (bipedal, no lift column)",
+    "confidence": "third-party",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": 0.83,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/ (3 km/h walking)"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 4,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "actuators": {
+    "value": "electric, derived from Atalante exoskeleton drivetrain; details not disclosed",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "end_effector": {
+    "value": "hands with 10 DoF total; tire/panel handling",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "no head; waist-mounted HD/4K day-night cameras, LED status lights, voice interface",
+    "confidence": "third-party",
+    "source": "https://insideevs.com/news/790259/renault-wandercraft-humanoid-robot-ev-factory/"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": "force sensors in feet for balance",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "compute": {
+    "value": "NVIDIA Jetson edge AI + NVIDIA Isaac platform",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "software_stack": {
+    "value": "Linux real-time + ROS 2; LLM/VLM voice-task reasoning; AI-trained locomotion (speed doubled in 6 months)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "safety_compliance": {
+    "value": "no public robot-safety certification; plant-level integration at Renault",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "price": {
+    "value": "~USD 65,000 (reported, unconfirmed)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "availability": {
+    "value": "strategic partners only (Renault, Sapa); not generally orderable",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/calvin-40/"
+  },
+  "deployment_evidence": {
+    "value": "In production at Renault Douai EV plant (tire mounting, panel carrying); 350 units planned across Renault EV factories by ~2027; Renault $75M minority stake Jun 2025; Sapa Group customer late 2025",
+    "confidence": "third-party",
+    "source": "https://insideevs.com/news/790259/renault-wandercraft-humanoid-robot-ev-factory/"
+  },
+  "sources": [
+    "https://insideevs.com/news/790259/renault-wandercraft-humanoid-robot-ev-factory/",
+    "https://www.therobotreport.com/wandercraft-unveils-new-industrial-humanoid-renault/",
+    "https://humanoid.guide/product/calvin-40/",
+    "https://www.globenewswire.com/news-release/2025/06/11/3097632/0/en/wandercraft-announces-series-d-round-bringing-75m-in-total-funding-secured-for-global-acceleration-of-ai-powered-robotics.html"
+  ],
+  "notes": "[ANNEX] EXCLUDED-as-biped: kept in study for Renault deployment context. Survey-sweep 'wheeled' claim was wrong; startup-sweep 'biped' claim confirmed. 170cm/28DoF/40kg-payload figures verified; '2025 Renault deployment' confirmed (Douai). EXCLUDED-BIPED: 'first two-legged headless robot' at Renault; annex context only."
+}

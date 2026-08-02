@@ -1,0 +1,140 @@
+{
+  "robot": "AEON",
+  "robot_native": "AEON",
+  "company": "Hexagon Robotics (Hexagon AB)",
+  "company_native": "Hexagon AB",
+  "hq_country": "Sweden",
+  "hq_city": "Stockholm",
+  "region": "Europe",
+  "status": "shipping",
+  "first_shown": "June 2025 (Hexagon LIVE)",
+  "target_applications": "machine tending, part inspection/QC scanning, reality capture/digital twins, intralogistics",
+  "base_type": {
+    "value": "BORDERLINE wheels-on-legs: articulated legs terminating in powered wheels (rolls on flat floors, steps over obstacles)",
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/"
+  },
+  "height_mm": {
+    "value": 1650,
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/"
+  },
+  "weight_kg": {
+    "value": 60,
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/"
+  },
+  "dof_total": {
+    "value": 34,
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 15,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/aeon/"
+  },
+  "torso_lift": {
+    "value": "leg articulation adjusts working height (no separate lift column)",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": 2.5,
+    "confidence": "third-party",
+    "source": "https://www.bmwblog.com/2026/03/03/bmw-hexagon-aeon-humanoid-robot-leipzig-pilot/ (~9 km/h)"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 4,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/aeon/ (hot-swappable packs)"
+  },
+  "actuators": {
+    "value": "electric; Schaeffler high-precision actuators entering supply chain (Apr 2026 agreement)",
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/"
+  },
+  "end_effector": {
+    "value": "dual arms with 10-finger hands; multi-machine load/unload + inspection demonstrated",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/aeon/"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "part of 22-sensor suite: peripheral cameras, ToF sensors, infrared arrays, SLAM cameras, microphones",
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/"
+  },
+  "sensors_wrist_hand": {
+    "value": "force sensors (multimodal suite)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/aeon/"
+  },
+  "sensors_base": {
+    "value": "SLAM cameras, ToF, lidar-class sensing for centimetre-accurate digital twins (metrology-grade)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/aeon/"
+  },
+  "compute": {
+    "value": "NVIDIA Jetson AGX Orin onboard (motion planning, spatial AI, edge LLM); NVIDIA IGX Thor planned for certified functional safety",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/aeon/"
+  },
+  "software_stack": {
+    "value": "NVIDIA Isaac Sim/Omniverse training, 4-layer physical AI, imitation learning (~20 demos per task), Hexagon metrology software integration",
+    "confidence": "vendor-claimed",
+    "source": "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/"
+  },
+  "safety_compliance": {
+    "value": "functional-safety path via NVIDIA IGX announced; no completed ISO 10218/13482 cert published",
+    "confidence": "estimated",
+    "source": "https://humanoid.guide/product/aeon/"
+  },
+  "price": {
+    "value": null,
+    "confidence": "",
+    "source": "not disclosed (aggregator '$20k' figure unreliable)"
+  },
+  "availability": {
+    "value": "pilot partners (BMW, Schaeffler, Pilatus); Schaeffler fleet rollout from end-2026",
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/"
+  },
+  "deployment_evidence": {
+    "value": "BMW Plant Leipzig: test Dec 2025, phase 2 Apr 2026, full pilot summer 2026; Schaeffler pilot 2025 (multi-machine tending+inspection) -> >=1,000 units by 2032 committed; Pilatus aerospace pilot",
+    "confidence": "third-party",
+    "source": "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/"
+  },
+  "sources": [
+    "https://www.therobotreport.com/bmw-piloting-hexagons-wheeled-humanoid-in-germany/",
+    "https://www.bmwblog.com/2026/03/03/bmw-hexagon-aeon-humanoid-robot-leipzig-pilot/",
+    "https://www.therobotreport.com/schaeffler-plans-to-deploy-1000-hexagon-humanoids-2032/",
+    "https://roboticsandautomationnews.com/2026/04/27/hexagon-and-schaeffler-to-install-1000-aeon-humanoids-across-global-factory-network/101049/",
+    "https://humanoid.guide/product/aeon/"
+  ],
+  "notes": "[ANNEX] BORDERLINE morphology (wheels-on-legs) — flag when comparing against pure wheeled semi-humanoids. Strategic angle: metrology giant enters robotics; robot doubles as mobile QC/reality-capture device; Schaeffler is both customer (1,000+ fleet) and actuator supplier."
+}

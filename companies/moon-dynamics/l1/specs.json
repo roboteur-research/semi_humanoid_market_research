@@ -1,0 +1,136 @@
+{
+  "robot": "L1",
+  "robot_native": "L1 (攬月動力)",
+  "company": "Moon Dynamics",
+  "company_native": "揽月动力",
+  "hq_country": "China",
+  "hq_city": "Shenzhen",
+  "region": "China",
+  "status": "shipping",
+  "first_shown": "2025-26",
+  "target_applications": "heavy-load carrying in warehouses, factories, industrial parks",
+  "base_type": {
+    "value": "two-wheel dynamic-balancing wheel-LEG hybrid (BORDERLINE scope: not a statically stable wheeled chassis)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "height_mm": {
+    "value": 1650,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "weight_kg": {
+    "value": 60,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "dof_total": {
+    "value": 18,
+    "confidence": "third-party",
+    "source": "DB also lists '12 in hands' — inconsistent with 2-finger claws, treat split as unreliable; https://humanoid.guide/product/l1/"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": 1800,
+    "confidence": "third-party",
+    "source": "reach up to ~1.8m under load (snippets)"
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 25,
+    "confidence": "third-party",
+    "source": "25kg lifting strength; https://humanoid.guide/product/l1/"
+  },
+  "torso_lift": {
+    "value": "wheel-leg articulation provides height variation (no separate lift column)",
+    "confidence": "estimated",
+    "source": "product imagery"
+  },
+  "max_speed_ms": {
+    "value": 1.94,
+    "confidence": "third-party",
+    "source": "7 km/h; https://humanoid.guide/product/l1/"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 3,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "actuators": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "end_effector": {
+    "value": "2-finger gripping claws",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "sensor visor head module (details not disclosed)",
+    "confidence": "estimated",
+    "source": "product imagery"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "millisecond-latency balancing control; 'quick learning from minimal training data' (vendor claim); no SDK info",
+    "confidence": "vendor-claimed",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "safety_compliance": {
+    "value": "claimed safe alongside humans; no certifications",
+    "confidence": "vendor-claimed",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "price": {
+    "value": "~USD 60,000",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "availability": {
+    "value": "inquiry-based; 'in production' (unverified)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/l1/"
+  },
+  "deployment_evidence": {
+    "value": "demo videos only (20kg uphill carry, water-tank transport); no customers named",
+    "confidence": "third-party",
+    "source": "LinkedIn/social snippets"
+  },
+  "sources": [
+    "https://humanoid.guide/product/l1/"
+  ],
+  "notes": "[ANNEX] BORDERLINE scope: wheel-leg (wheeled-bipedal) robot, included as boundary datapoint like Hexagon AEON / GAC GoMate. Company extremely opaque: no site, founders, or funding public. Distinct from Shenzhen VLAI Robotics' unrelated 'L1' (¥28,800 wheeled household dev platform) — do not conflate."
+}

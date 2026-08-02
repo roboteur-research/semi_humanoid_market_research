@@ -1,0 +1,137 @@
+{
+  "robot": "Stretch 3",
+  "robot_native": "",
+  "company": "Hello Robot",
+  "company_native": "",
+  "hq_country": "USA",
+  "hq_city": "Martinez, CA",
+  "region": "USA",
+  "status": "shipping",
+  "first_shown": "2024-02 (Stretch line since 2020)",
+  "target_applications": "research, in-home assistance, education",
+  "base_type": {
+    "value": "wheeled (differential drive) — BORDERLINE: single-arm, not a semi-humanoid",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "height_mm": {
+    "value": 1400,
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "weight_kg": {
+    "value": 24.5,
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": 2,
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "payload_total_kg": {
+    "value": 2,
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "torso_lift": {
+    "value": "lift column (arm travels full height)",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": "prismatic telescoping arm; dexterous wrist (3-DoF option)",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "end_effector": {
+    "value": "compliant gripper w/ D405 camera; tool swap options",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "RealSense D435if, pan-tilt",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "sensors_wrist_hand": {
+    "value": "RealSense D405 in gripper",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "sensors_base": {
+    "value": "2D lidar, IMU, cliff sensors",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "compute": {
+    "value": "onboard x86 (NUC-class)",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "open source: ROS 2, Python SDK, teleop kit; large community (Dobb-E, ACT ports)",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "safety_compliance": {
+    "value": "lightweight design (~24.5 kg) as inherent safety argument; no cert stated",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "price": {
+    "value": "USD 24,950",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "availability": {
+    "value": "shipping worldwide",
+    "confidence": "vendor-claimed",
+    "source": "https://hello-robot.com"
+  },
+  "deployment_evidence": {
+    "value": "hundreds of research labs; in-home use incl. Henry Evans (quadriplegic user); NIH-funded studies",
+    "confidence": "third-party",
+    "source": "https://spectrum.ieee.org/hello-robot-stretch-3"
+  },
+  "sources": [
+    "https://hello-robot.com",
+    "https://spectrum.ieee.org/hello-robot-stretch-3"
+  ],
+  "notes": "[ANNEX] BORDERLINE ENTRY (single arm) — include in borderline annex, not the main matrix. Added at user request as design-philosophy reference."
+}

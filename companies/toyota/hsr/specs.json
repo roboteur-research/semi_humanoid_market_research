@@ -1,0 +1,138 @@
+{
+  "robot": "Human Support Robot (HSR)",
+  "robot_native": "生活支援ロボット HSR",
+  "company": "Toyota",
+  "company_native": "トヨタ自動車",
+  "hq_country": "Japan",
+  "hq_city": "Toyota City",
+  "region": "Japan",
+  "status": "research",
+  "first_shown": "2012 (prototype 2011)",
+  "target_applications": "home assistance for elderly/disabled, telepresence, research (RoboCup@Home standard platform)",
+  "base_type": {
+    "value": "wheeled (omnidirectional) — BORDERLINE: single-arm, not a semi-humanoid",
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "height_mm": {
+    "value": "1005-1350 (telescoping)",
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "weight_kg": {
+    "value": 37,
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": "shoulder height 340-1030",
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "payload_per_arm_kg": {
+    "value": 1.2,
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "payload_total_kg": {
+    "value": 1.2,
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "torso_lift": {
+    "value": "telescoping body 1005-1350 mm",
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "max_speed_ms": {
+    "value": 0.22,
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/ (0.8 km/h)"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": "folding single arm; suction + gripper end-effector",
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "end_effector": {
+    "value": "gripper + vacuum pad; objects <=130 mm wide",
+    "confidence": "vendor-claimed",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "RGB-D + stereo cameras, pan-tilt display head, mics",
+    "confidence": "estimated",
+    "source": "https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0132-3"
+  },
+  "sensors_wrist_hand": {
+    "value": "wrist force sensor, hand camera",
+    "confidence": "estimated",
+    "source": "https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0132-3"
+  },
+  "sensors_base": {
+    "value": "2D lidar, bumper",
+    "confidence": "estimated",
+    "source": "https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0132-3"
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "ROS; HSR Developers' Community SDK; RoboCup@Home DSPL platform",
+    "confidence": "third-party",
+    "source": "https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0132-3"
+  },
+  "safety_compliance": {
+    "value": "designed for in-home trials with disabled users; certification not stated",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "price": {
+    "value": "n/a (research distribution, 40+ institutions)",
+    "confidence": "third-party",
+    "source": "https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0132-3"
+  },
+  "availability": {
+    "value": "research community only; succeeded by dual-arm ELEY (announced 12/2025)",
+    "confidence": "third-party",
+    "source": "https://robotstart.info/article/2025/12/08/381477.html"
+  },
+  "deployment_evidence": {
+    "value": "in-home trials with disabled users (2011-), Tokyo 2020 Olympics service, 40+ institutions, RoboCup@Home standard, PFN tidying demos",
+    "confidence": "third-party",
+    "source": "https://mag.toyota.co.uk/toyota-human-support-robot/"
+  },
+  "sources": [
+    "https://mag.toyota.co.uk/toyota-human-support-robot/",
+    "https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0132-3",
+    "https://robotstart.info/article/2025/12/08/381477.html"
+  ],
+  "notes": "[ANNEX] BORDERLINE ENTRY (single arm) — borderline annex, not main matrix. Added at user request as the historic home-assistance archetype; ancestor of dual-arm ELEY."
+}

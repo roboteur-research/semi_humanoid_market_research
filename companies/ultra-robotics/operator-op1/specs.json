@@ -1,0 +1,139 @@
+{
+  "robot": "Operator OP1",
+  "robot_native": null,
+  "company": "Ultra (Ultra Robotics)",
+  "company_native": null,
+  "hq_country": "USA",
+  "hq_city": "Brooklyn, NY",
+  "region": "USA",
+  "status": "shipping",
+  "first_shown": "2024-08 (YC S24 launch)",
+  "target_applications": "e-commerce order packing, sorting, kitting, returns in warehouses/3PLs",
+  "base_type": {
+    "value": "STATIONARY workcell on locking casters (no locomotion) - borderline workstation, not mobile semi-humanoid",
+    "confidence": "vendor-claimed",
+    "source": "https://www.ultra.tech/"
+  },
+  "height_mm": {
+    "value": null,
+    "confidence": "",
+    "source": "vertical reach 0-3050 mm (0-10 ft)"
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": "positioning arm + 2 manipulation arms; DoF not published"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": 3050,
+    "confidence": "vendor-claimed",
+    "source": "https://www.ultra.tech/ (10 ft vertical reach; 10x10 ft work area)"
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 4.5,
+    "confidence": "vendor-claimed",
+    "source": "https://www.ultra.tech/ (10 lb)"
+  },
+  "torso_lift": {
+    "value": "large positioning arm elevates dual-arm manipulation head (arm-on-arm architecture)",
+    "confidence": "estimated",
+    "source": "official product imagery"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": "stationary"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": "mains-powered, no battery"
+  },
+  "runtime_h": {
+    "value": 24,
+    "confidence": "vendor-claimed",
+    "source": "https://www.ultra.tech/ (24/7 on 120V outlet)"
+  },
+  "actuators": {
+    "value": "off-the-shelf robot arms (models undisclosed)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.ycombinator.com/launches/LeE-ultra-building-the-next-million-robots-to-automate-american-warehouses"
+  },
+  "end_effector": {
+    "value": "2-finger parallel grippers on both manipulation arms",
+    "confidence": "estimated",
+    "source": "official product imagery"
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "stereo depth camera (ZED-class) on manipulation head",
+    "confidence": "estimated",
+    "source": "official product imagery"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": "n/a; dedicated 10 Mbps Ethernet uplink required (cloud inference/telemetry implied)",
+    "confidence": "vendor-claimed",
+    "source": "https://www.ultra.tech/"
+  },
+  "software_stack": {
+    "value": "imitation-learned autonomous policies from teleoperation data; task training by example",
+    "confidence": "vendor-claimed",
+    "source": "https://www.ycombinator.com/launches/LeE-ultra-building-the-next-million-robots-to-automate-american-warehouses"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": "RaaS USD 2,500-3,000/month; 3-month trial",
+    "confidence": "third-party",
+    "source": "https://thenewwarehouse.com/2025/12/22/ai-powered-warehouse-robots-redefining-order-packing/"
+  },
+  "availability": {
+    "value": "US; deploys in hours; 120V outlet, no fixed infrastructure",
+    "confidence": "vendor-claimed",
+    "source": "https://www.ultra.tech/"
+  },
+  "deployment_evidence": {
+    "value": "Highline Commerce (Brooklyn 3PL): ~30% of linear fulfillment workflow automated in live operation; 'warehouses across America'; zero down days claimed",
+    "confidence": "third-party",
+    "source": "https://www.humanoidsdaily.com/news/highline-commerce-taps-ultra-robotics-to-automate-30-of-fulfillment-in-brooklyn-hub"
+  },
+  "sources": [
+    "https://www.ultra.tech/",
+    "https://www.ycombinator.com/launches/LeE-ultra-building-the-next-million-robots-to-automate-american-warehouses",
+    "https://www.humanoidsdaily.com/news/highline-commerce-taps-ultra-robotics-to-automate-30-of-fulfillment-in-brooklyn-hub",
+    "https://thenewwarehouse.com/2025/12/22/ai-powered-warehouse-robots-redefining-order-packing/"
+  ],
+  "notes": "[ANNEX] T3 compact. BORDERLINE: stationary caster-mounted workcell, included as price/uptime benchmark for packing/kitting. Founders: Jon Miller Schwartz, Max Friefeld, Chetan Parthiban, Oliver (3x YC founders). YC S24."
+}

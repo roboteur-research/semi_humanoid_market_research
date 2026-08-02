@@ -1,0 +1,178 @@
+<h2 class="pb">12&nbsp;&nbsp;Technology trends</h2>
+<h3>Foundation models made the category investable</h3>
+<p>Vision-language-action (VLA) models are the demand engine: Physical Intelligence's
+π0/π0.5 run long-horizon household tasks on <i>wheeled</i> mobile manipulators ($5.6B
+valuation, ~$1B raise in talks); NVIDIA's GR00T, Google's Gemini Robotics 2 (whole-body
+control, adapts to new hardware with &lt;200 examples), AgiBot's GO-2, Galbot's
+GraspVLA (billion-frame synthetic pretraining) and Figure's Helix define the stack.
+Consequence: hardware is increasingly judged as a <b>data-collection and policy-execution
+vehicle</b>. AgiBot World's million-trajectory dataset was collected on wheeled G2s;
+Sunday's 2,000 paid "memory developers" wear gloves whose geometry its robot hand
+mirrors; China operates 40+ state-funded training centers; 1X's EVE security fleet
+trained NEO. Teleoperation is not a stopgap but a revenue-generating data business
+(Reflex, ugo, Beomni) — Interact Analysis expects deployments to remain "predominantly
+semi-autonomous" near-term.</p>
+<h3>Hardware convergence</h3>
+<div class="kbox"><b>The 2026 median semi-humanoid:</b> two 7-DoF arms; 20–40 total DoF;
+3–5 kg per-arm payload (10–20 kg for logistics classes; outliers: Dexterity 60 kg,
+Duatic 30 kg peak, Realman 5 kg official); 1.3–1.75 m height, often with a lift column
+or folding torso (floor-to-2 m+ work envelopes: Galbot 2.4 m, AI² 0–2.4 m, Dexmate
+0.66–2.2 m); omnidirectional wheels at ~1.5–2 m/s; 5–8+ h runtime with hot-swap
+batteries; 3D lidar + multi-RGB-D + wrist F/T sensing; NVIDIA Jetson Orin (now Thor:
+Richtech Dex, Dexmate) as de-facto compute; ROS 2 plus a proprietary autonomy/VLA layer.
+Actuation splits between QDD/backdrivable philosophies (Toyota ELEY, Duatic DynaArm,
+Spirit AI full force control) and harmonic/planetary precision claims (±0.03–0.1 mm:
+JAKA, Elite, iSageBot). </div>
+<h3>Hands and end-effectors</h3>
+<p>Parallel grippers still dominate deployments; dexterous hands are differentiating
+fast: Chinese five-finger hands now start under $1,400 (Inspire ubiquitous; the market
+grew ~150% YoY into a "mass-production race"), Western options run to Shadow's ~$300k;
+in-house designs (Pudu DH11, XYZ's 7-DoF 3-finger + Glove X, Sanctuary's hydraulic
+21-DoF, PaXini's ITPU tactile arrays) anchor product identity. Tool-changers and media
+at flange remain rare disclosures — an open differentiation axis for industrial-grade
+entrants. Notably, several "humanoid" vendors ship off-the-shelf EEs (1X EVE used a
+Robotiq 3-finger; OpenDroids integrates RealMan hands).</p>
+
+<h2>13&nbsp;&nbsp;Pricing &amp; business models</h2>
+<table>
+<thead><tr><th>Band</th><th>Examples (2026 street/list prices)</th><th>Model</th></tr></thead>
+<tbody>
+<tr><td>&lt;$5k</td><td>Unitree R1-D ¥26,900 (~$4.3k); open kits (XLeRobot $579–660, BamBot ~$300)</td><td>Entry/education; ecosystem seeding</td></tr>
+<tr><td>$5–30k</td><td>Weave Isaac $7,999 or $449/mo; Almond Axol from $7,999; Astribot T1 ~$14k China / $40,950 via Western resellers; Elephant Mercury X1 $15,999; SwitchBot Onero H1 target ~$1–1.5k (pre-production); WorkFar tiers $10–60k; XYZ DEUX $29.9–39.9k; Techman ~$25k est.</td><td>Home subscriptions; research/edu; prosumer</td></tr>
+<tr><td>$30–100k</td><td>Deft Simba $34,900; igus Iggy Rob €47,999; AgiBot A2 Lite $44.6k; A2-W ¥400–800k insider; Astribot S1 ~$69k; Reachy 2 ~$70k; UMA Northstar ~$70k; Noble $75k; Rainbow RB-Y1 $80k research; Dexmate Vega $89,999; Genesis Eno ~$90k; Galbot G1 ~$91–97k; Keenon XMAN ~$100k; PAL TIAGo Pro ~$85–95k</td><td>Industrial/research purchase; the segment's center of gravity</td></tr>
+<tr><td>&gt;$100k</td><td>Rainbow RB-Y1 commercial $120k; Richtech ADAM $180k; Ameca ~$250k; CASBOT 02-class ¥328.8k; CloudMinds Ginger ¥698k; research heritage (PR2 $400k)</td><td>Premium/entertainment/legacy</td></tr>
+<tr><td>RaaS</td><td>ADAM $3,500/robot/mo (25-unit 60-mo contract); AgiBot A2 ~$20k+/mo; delivery-class $300–800/mo; Eden $10/hour; home $449–499/mo (Weave, 1X NEO)</td><td>Labor-substitution pricing; dominant new-entrant model in the US</td></tr>
+</tbody></table>
+<p>Note the China-vs-export gap: the same robot often costs 2–3× more through Western resellers (Astribot T1: ~$14k domestic vs $40,950 US reseller list) — tariffs, support and channel margins that an EU-based vendor does not pay locally. Pattern: Chinese street prices cluster at $45–100k industrial (falling — some wheeled
+models below RMB 100k), Western/Korean at $80–180k, and a new sub-$15k consumer/edu
+front opened in 2025–26. Maintenance contracts (Deft: $30k/yr on a $40k robot) and
+software/support subscriptions (Galbot ~$27k/robot/yr) shift lifetime value off the
+sticker price. History's warning: Pepper's ~$9k consumer bundle lost money at ~27,000
+units and the business died; unit economics, not unit counts, decide survival.</p>
+
+<h2 class="pb">14&nbsp;&nbsp;Safety, standards &amp; regulation</h2>
+<ul>
+<li><b>ISO 13482</b> (personal care robots — mobile servant class fits semi-humanoids):
+2014 edition current; revision (retitled toward "service robots", broadened to
+professional applications, FDIS stage mid-2025) expected imminently.</li>
+<li><b>ISO 10218-1/-2:2025</b> published: industrial robot safety overhauled with
+functional safety, cybersecurity and collaborative requirements; TS 15066 folded in.
+<b>ANSI/RIA R15.08</b> covers industrial mobile robots with mounted manipulators;
+<b>UL 3300</b> (service robots in public spaces) joined OSHA's NRTL list Dec 2025.</li>
+<li><b>The wheeled certification advantage:</b> statically stable platforms certify
+under all of the above <i>today</i>; dynamically balancing robots await <b>ISO
+25785-1</b> (committee draft; expected 2026–27). IEEE's humanoid-standards pathway
+study (2025) puts ratified humanoid standards 18–36 months out.</li>
+<li><b>EU:</b> Machinery Regulation 2023/1230 applies <b>20 January 2027</b> (no grace
+period): self-evolving-behaviour assessment, cybersecurity of safety functions, digital
+documentation — layered with the AI Act. Burden for laggards; moat for
+compliance-by-design vendors. TÜV-grade certification of a dual-arm mobile platform is
+an unclaimed European first.</li>
+<li><b>USA — the 2026 discontinuity:</b> FCC Public Notice <b>DA 26-786</b> (28 July
+2026) added "foreign-produced advanced robotic devices" to the Secure Networks Act
+Covered List: any mobile ground robot &gt;4.4 lbs with environmental sensing, ≥200 kbps
+connectivity and AI autonomy loses FCC equipment authorization for new models unless
+granted a Department-of-War conditional approval. Fixed industrial robots are exempt;
+wheeled/tracked semi-humanoids are squarely in scope. Practical effects: Chinese vendors
+lose the US; Korean/Japanese/European vendors need approvals or US manufacturing
+("domestic end product" per 48 CFR 25.101(a)); US integrators re-source components.</li>
+<li><b>China:</b> MIIT stood up a humanoid/embodied-AI standardization committee (Nov
+2025; Unitree and AgiBot founders as deputy chairs) and unveiled the first national
+humanoid standard system in March 2026; existing GB/T service-robot safety standards
+apply meanwhile. Shanghai issued the first humanoid governance guidelines (2024).</li>
+</ul>
+<div class="warn"><b>Observed reality:</b> among 180 main-matrix robots, published
+robot-safety certifications are rare to absent — including for market leaders. Oversonic's
+"industrial + healthcare certified" claim resolves to CE-machinery + ISO 27001. A vendor
+that can put ISO 13482 / MR-2027-ready CE on a dual-arm mobile platform holds a genuinely
+scarce asset.</div>
+
+<h2>15&nbsp;&nbsp;Deployment evidence: who is really working</h2>
+<table>
+<thead><tr><th>Deployment class</th><th>Evidence (confidence)</th></tr></thead>
+<tbody>
+<tr><td>Historic scale</td><td>Pepper: ~27,000 produced / ~17,000 sold, worldwide retail &amp; reception (third-party) — still unmatched</td></tr>
+<tr><td>Factory production shifts</td><td>AgiBot A2-W at Fulin Precision (~100-unit order; 4 robots moved 800+ boxes/3 h) and G2 at Longcheer (310 units/h tablet line) (third-party); Walden W0.5 in 8-h shifts at a Toyota plant since Feb 2026 (vendor/third-party); Midea MIRO U in its Wuxi plant (vendor); Zoomlion internal fleets (vendor)</td></tr>
+<tr><td>Retail/pharmacy autonomy</td><td>Galbot: 10+ licensed Beijing robot pharmacies, ~170 kiosks in 40+ cities, 99.5% grasp claim over ~5,000 SKUs (vendor-claimed); Haohai "Juliet" pods on Nanjing Road (2,368 orders in first months, third-party)</td></tr>
+<tr><td>Hospitality/F&amp;B</td><td>Richtech ADAM: Walmart-hosted One Kitchen sites, Vegas café (16k+ drinks), arenas (vendor/third-party); Keenon XMAN-R1 at Shangri-La; Zerith H1 in 20+ hotels (third-party)</td></tr>
+<tr><td>Healthcare/eldercare</td><td>Gary: ~10 units Philadelphia + Israeli MoH (third-party); Nyokkey at Fujita hospitals; Mirokai at AP-HP/Montpellier; Aeolus Aeo in Japanese eldercare (operators are also investors)</td></tr>
+<tr><td>Security/infrastructure</td><td>1X EVE via Everon/ADT: est. 150–250 US buildings (estimated); ugo Pro in Japanese buildings (third-party); Jinki Ittai on JR West railways — revenue service since July 2024 (third-party)</td></tr>
+<tr><td>Logistics pilots</td><td>Reflex at GXO; Rainbow RB-Y1 at Coupang (confirmed); Dexterity Mech truck-loading pilots + Sanmina manufacturing (third-party)</td></tr>
+<tr><td>Home (beta)</td><td>Weave Isaac deliveries from Sept 2026 (CA); Sunday Memo beta "by Thanksgiving 2026"; 1X NEO late 2026 — all pre-scale (vendor-claimed)</td></tr>
+</tbody></table>
+<p class="fnote">Contrast: flagship bipedal deployments remain single-to-low-double-digit
+robot counts (Figure/BMW: 2 robots; Agility/GXO: "small fleet"). The wheeled category's
+deployment lead is roughly two orders of magnitude.</p>
+
+<h2 class="pb">16&nbsp;&nbsp;Competitive assessment for a German entrant</h2>
+<h3>Where the openings are</h3>
+<ul>
+<li><b>EU-certified industrial semi-humanoid.</b> No vendor holds robot-safety-grade
+certification for a dual-arm mobile platform under the incoming MR 2023/1230 regime.
+German TÜV culture + the domestic research bench (DLR torque control, KIT ARMAR
+manipulation, Franka-class compliant arms) make compliance-by-design the natural
+differentiator against spec-sheet-led Chinese imports.</li>
+<li><b>Care &amp; hospital logistics in Europe.</b> Demographics guarantee demand; the
+credible platforms are pilots (GARMI has no spin-off; HoLLiE stayed academic; MiPA is
+late; Mirokai is logistics-only). ISO 13482 + hospital-grade hygiene + Devanthro-style
+teleop fallback is an assemblable, defensible package.</li>
+<li><b>US market via the FCC wall.</b> A German vendor with US final assembly
+("domestic end product") can sell where Chinese rivals now cannot — the single largest
+regulatory gift to Western robot makers in years. Walden's $1.1B day-one valuation
+prices exactly this scarcity.</li>
+<li><b>Data flywheel as default architecture.</b> Ship every unit teleop-capable and
+log demonstrations under EU-grade data governance ("GDPR-clean embodied-AI data" is
+itself a product for European enterprise customers wary of Chinese and US clouds).</li>
+<li><b>Component strategy.</b> Schaeffler (actuators; invested across Humanoid UK,
+Hexagon, reportedly Neura), igus (polymers), Franka/Agile (arms), SICK/IDS (sensing)
+form a domestic supply chain; the missing integrator role is the opportunity.</li>
+</ul>
+<h3>Threat tiers (analyst view)</h3>
+<table>
+<thead><tr><th>Tier</th><th>Actors</th><th>Why</th></tr></thead>
+<tbody>
+<tr><td>Severe</td><td>AgiBot, Galbot, UBTech; Keenon/Pudu channels; Unitree price disruption</td><td>Scale, capital, data, falling prices; EU entry inevitable (Rokae already exhibits in the West)</td></tr>
+<tr><td>High</td><td>Toyota ELEY, Yaskawa(+Tokyo Robotics), Samsung/Rainbow, LG, Hexagon/Schaeffler, Walden</td><td>Incumbent capital + manufacturing + patient roadmaps</td></tr>
+<tr><td>Medium</td><td>Humanoid UK, Neura, Sunday/Weave/Dexterity/Dyna, Richtech, Oversonic, Enchanted Tools</td><td>Funded and fast, but each thesis still unproven at scale</td></tr>
+<tr><td>Watch</td><td>SwitchBot/consumer-price entrants; open-source kits; Genesis-class model labs; Vassar/Piggy/HABIT-type YC stealth</td><td>Price-floor and expectation-setting effects</td></tr>
+</tbody></table>
+<h3>Recommended posture</h3>
+<p><b>Enter as the certified European industrial/care semi-humanoid with a data
+flywheel.</b> Concretely: (1) wheeled omnidirectional base + lift torso, dual 7-DoF
+compliant arms in the 5–10 kg/arm class, tool-changer + media at flange (an undisclosed
+axis across nearly all competitors); (2) MR-2027/ISO-13482 compliance engineered from
+day one and certified loudly; (3) launch vertical where ROI is provable within one
+budget cycle — intralogistics machine-tending or hospital logistics — with RaaS pricing
+against the $3.5k/mo ADAM benchmark; (4) teleop + demonstration-data capture in every
+unit; (5) US strategy via local assembly partner from year one; (6) strategic component
+alliances (Schaeffler/Franka/igus) rather than full vertical integration. Speed matters:
+the Korean incumbent wave shows how fast listed industrials can pivot, and Chinese
+price curves compress the window in which "European + certified + trusted" commands a
+premium.</p>
+
+<h2 class="pb">17&nbsp;&nbsp;Annex A: Borderline &amp; excluded systems</h2>
+<p>Documented for completeness; excluded from the main matrix. Full dossiers exist for
+each in the repository.</p>
+{{ANNEX}}
+
+<h2>18&nbsp;&nbsp;Annex B: Research repository guide</h2>
+<p>This study compresses a research repository delivered alongside it:</p>
+<ul>
+<li><b>companies/&lt;company&gt;/company.md</b> — company profile: ownership, funding,
+strategy, sources.</li>
+<li><b>companies/&lt;company&gt;/&lt;robot&gt;/robot.md</b> — full dossier: morphology,
+locomotion, manipulation, sensing, actuation, compute/software, safety, deployment
+evidence, analyst assessment, numbered sources.</li>
+<li><b>…/specs.json</b> — machine-readable spec sheet; every field carries value +
+confidence (vendor-claimed / third-party / estimated) + source URL. These files generate
+the xlsx.</li>
+<li><b>…/images/</b> — downloaded imagery, each visually verified; images.md maps every
+file to its source page, direct URL, caption and licence note.</li>
+<li><b>semi_humanoid_market_2026.xlsx</b> — Overview, full 34-column spec matrix,
+per-region sheets, Borderline &amp; excluded, ~3,400-row per-field source register,
+confidence colour legend.</li>
+</ul>
+<p class="fnote">Compiled 2 August 2026. Sources were accessed August 2026; the
+per-field register in the xlsx is authoritative for citations. Confidence discipline:
+vendor-claimed figures are marketing until deployed; third-party validation is noted
+wherever it exists; conflicts are preserved, not averaged.</p>

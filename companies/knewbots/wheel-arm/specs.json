@@ -1,0 +1,43 @@
+{
+  "robot": "KNEWBOTS wheel-arm robot",
+  "robot_native": "晓悟智能轮臂式机器人",
+  "company": "KNEWBOTS",
+  "company_native": "晓悟智能",
+  "hq_country": "China",
+  "hq_city": "Hangzhou",
+  "region": "China",
+  "status": "announced",
+  "first_shown": "2025-26 (approx.)",
+  "target_applications": "retail/showroom guidance, substation inspection, end-of-line sorting, line-side material transfer",
+
+  "base_type":            {"value": "wheeled AMR chassis", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "height_mm":            {"value": "1280-1630 (adjustable)", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "weight_kg":            {"value": 88, "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "dof_total":            {"value": 35, "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "dof_per_arm":          {"value": 7, "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "reach_mm":             {"value": 600, "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "payload_per_arm_kg":   {"value": 4.5, "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "payload_total_kg":     {"value": null, "confidence": "", "source": ""},
+  "torso_lift":           {"value": "height-adjustable torso 1.28-1.63 m (~350 mm travel)", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
+  "battery_kwh":          {"value": null, "confidence": "", "source": ""},
+  "runtime_h":            {"value": 4, "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "actuators":            {"value": null, "confidence": "", "source": ""},
+  "end_effector":         {"value": "dexterous hand rated 3 kg (grippers visible in photos)", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "media_at_flange":      {"value": "n/a (not disclosed)", "confidence": "", "source": ""},
+  "sensors_head":         {"value": "RGBD camera on head, 4-mic linear array", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "sensors_wrist_hand":   {"value": "6-axis force sensors", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "sensors_base":         {"value": "dual RGBD cameras on base (+ AMR navigation sensors)", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "compute":              {"value": "Intel i7-1355U control unit + NVIDIA Orin AGX 275 TOPS (dev config)", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "software_stack":       {"value": "LLM task planning + real-time motion control; multi-robot unified fleet control; WiFi6/Ethernet/BT", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "safety_compliance":    {"value": null, "confidence": "", "source": ""},
+  "price":                {"value": null, "confidence": "", "source": ""},
+  "availability":         {"value": "China; direct/solution sales; charge time 2 h", "confidence": "vendor-claimed", "source": "https://www.knewbots.com/wheelarm-robot/"},
+  "deployment_evidence":  {"value": "no public deployments/unit counts; demo/pilot stage", "confidence": "estimated", "source": "https://www.knewbots.com/wheelarm-robot/"},
+
+  "sources": [
+    "https://www.knewbots.com/wheelarm-robot/",
+    "https://www.thundersoft.com/robotics/"
+  ],
+  "notes": "Subsidiary/investee of ThunderSoft 中科创达 (SZSE 300496). Core business = logistics AMRs; wheel-arm humanoid rides that chassis + fleet software."
+}

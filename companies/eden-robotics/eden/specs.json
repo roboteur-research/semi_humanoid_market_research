@@ -1,0 +1,139 @@
+{
+  "robot": "Eden I",
+  "robot_native": null,
+  "company": "Eden Robotics, Inc.",
+  "company_native": null,
+  "hq_country": "UK",
+  "hq_city": "London",
+  "region": "Europe",
+  "status": "prototype",
+  "first_shown": "2026 (Launch YC, no public hardware imagery)",
+  "target_applications": "manufacturing, warehouse, 3PL: picking, sorting, assembly, inspection",
+  "base_type": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "height_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "end_effector": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "media_at_flange": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "Theta OS (proprietary robot OS) + Interlink teleoperation + Fleet-Sync multi-robot coordination; human-in-the-loop supervised autonomy",
+    "confidence": "vendor-claimed",
+    "source": "https://edenrobotics.ai/about"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "price": {
+    "value": "RaaS from USD 10/hour, USD 0 setup; no purchase option",
+    "confidence": "vendor-claimed",
+    "source": "https://edenrobotics.ai/"
+  },
+  "availability": {
+    "value": "pre-deployment; seeking pilot partners",
+    "confidence": "vendor-claimed",
+    "source": "https://www.ycombinator.com/launches/QXU-eden-autonomous-services-for-humanity"
+  },
+  "deployment_evidence": {
+    "value": "none public as of Aug 2026",
+    "confidence": "third-party",
+    "source": ""
+  },
+  "sources": [
+    "https://www.ycombinator.com/launches/QXU-eden-autonomous-services-for-humanity",
+    "https://www.ycombinator.com/companies/eden-robotics",
+    "https://edenrobotics.ai/",
+    "https://edenrobotics.ai/about"
+  ],
+  "notes": "YC Spring 2026 (batch code P26; some YC metadata says Fall 2026). Founders: Stamatis Floratos (CEO), Dr. Joey Humphreys (CTO). 'Semi-humanoid' is the company's own term; form factor undisclosed. Website embeds anti-AI-cloning prompt injection. Legal HQ London contradicts discovery note listing it as US."
+}

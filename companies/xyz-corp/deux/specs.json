@@ -1,0 +1,43 @@
+{
+  "robot": "DEUX",
+  "robot_native": "듀스 (Deuce)",
+  "company": "XYZ Inc.",
+  "company_native": "(주)엑스와이지",
+  "hq_country": "South Korea",
+  "hq_city": "Seoul",
+  "region": "Korea",
+  "status": "announced",
+  "first_shown": "2026-07-27",
+  "target_applications": "retail restocking/arrangement, inventory checks, tidying, packing",
+
+  "base_type":            {"value": "wheeled (swerve drive, 360° omnidirectional; fixed-base variant also sold)", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "height_mm":            {"value": 1550, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX (900 mm min - 1550 mm max)"},
+  "weight_kg":            {"value": 60, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX (base 35 + robot 25)"},
+  "dof_total":            {"value": 30, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX (spec table; marketing cites 32)"},
+  "dof_per_arm":          {"value": 7, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "reach_mm":             {"value": 501, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX (range of motion)"},
+  "payload_per_arm_kg":   {"value": 5.5, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "payload_total_kg":     {"value": 11, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX (dual-arm max)"},
+  "torso_lift":           {"value": "1-DoF lift column, 900-1550 mm working height", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "max_speed_ms":         {"value": null, "confidence": "", "source": ""},
+  "battery_kwh":          {"value": 1.44, "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX (24V 60Ah)"},
+  "runtime_h":            {"value": null, "confidence": "", "source": ""},
+  "actuators":            {"value": "n/a (not disclosed); 1,000 Hz CAN-FD control loop", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "end_effector":         {"value": "proprietary 3-finger dexterous hand, 7 DoF per hand, fingertip pressure sensing (via Glove X pipeline)", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "media_at_flange":      {"value": null, "confidence": "", "source": ""},
+  "sensors_head":         {"value": "n/a (not disclosed for robot; Glove X capture device: dual camera + 220° ultra-wide lens)", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "sensors_wrist_hand":   {"value": "fingertip pressure sensing (3-channel on Glove X; transferred to robot hand)", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "sensors_base":         {"value": null, "confidence": "", "source": ""},
+  "compute":              {"value": "standalone on-device compute (1 kHz processing); NVIDIA Thor optional, sold separately", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "software_stack":       {"value": "ROS 2, Python, DEUX Controller; Brain X behavior/agentic models; Glove X 1:1 imitation-learning pipeline (no retargeting)", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "safety_compliance":    {"value": "impedance-control compliance for human-shared spaces; no certifications published", "confidence": "third-party", "source": "https://en.sedaily.com/technology/2026/07/27/xyz-unveils-dual-arm-semi-humanoid-robot-deuce-for-store"},
+  "price":                {"value": "Mobile DEUX USD 39,900; fixed DEUX USD 29,900; Glove X USD 3,900 (pre-order incl. Brain X + 1 task-modeling cycle)", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "availability":         {"value": "pre-order (2026); Korea first, ship date not disclosed", "confidence": "vendor-claimed", "source": "https://xyzcorp.imweb.me/DEUX"},
+  "deployment_evidence":  {"value": "Live demo at LoungeX Seongsu store 2026-07-27 (packing, tidying); no external customers yet; Series B KRW 13B 2026-03 (Kolon, Yuanta, Crit)", "confidence": "third-party", "source": "https://en.sedaily.com/technology/2026/07/27/xyz-unveils-dual-arm-semi-humanoid-robot-deuce-for-store"},
+
+  "sources": [
+    "https://xyzcorp.imweb.me/DEUX",
+    "https://en.sedaily.com/technology/2026/07/27/xyz-unveils-dual-arm-semi-humanoid-robot-deuce-for-store"
+  ],
+  "notes": "Official spec table: W530 x D652 mm footprint; 30 DoF (2x7 arms + 2x7 hands + 1 lift + 3 base); press/marketing cite 32 DoF and four swerve modules. Discovery note of Series B $8.73M corresponds to KRW 13B (Mar 2026; ~USD 9-10M at other conversions)."
+}

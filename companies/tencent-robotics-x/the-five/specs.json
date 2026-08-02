@@ -1,0 +1,139 @@
+{
+  "robot": "The Five (XiaoWu)",
+  "robot_native": "小五",
+  "company": "Tencent Robotics X",
+  "company_native": "腾讯Robotics X实验室",
+  "hq_country": "China",
+  "hq_city": "Shenzhen",
+  "region": "China",
+  "status": "research",
+  "first_shown": "2024-09",
+  "target_applications": "eldercare, home assistance, safe physical human-robot interaction research",
+  "base_type": {
+    "value": "wheel-leg hybrid: four straight telescoping legs with wheels (BORDERLINE, not classic wheeled base)",
+    "confidence": "third-party",
+    "source": "https://technode.com/2024/09/25/tencent-robotics-x-lab-reveals-the-five-a-hybrid-home-help-robot/"
+  },
+  "height_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "torso_lift": {
+    "value": "variable height via telescoping legs; can fold compactly",
+    "confidence": "third-party",
+    "source": "https://www.humanoid-robots.io/robot/xiaowu-by-tencent-robotics-x"
+  },
+  "max_speed_ms": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "end_effector": {
+    "value": "three-fingered multi-DoF hands",
+    "confidence": "third-party",
+    "source": "https://www.humanoid-robots.io/robot/xiaowu-by-tencent-robotics-x"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "sensors_wrist_hand": {
+    "value": "force and tactile sensing (massage demo)",
+    "confidence": "third-party",
+    "source": "https://mikekalil.com/blog/tencent-the-five-robot/"
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "compute": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "software_stack": {
+    "value": "Tencent Robotics X internal stack; details n/a",
+    "confidence": "estimated",
+    "source": "https://roboticsx.tencent.com/"
+  },
+  "safety_compliance": {
+    "value": "designed for safe physical human contact incl. supporting body weight; large-area tactile skin; no certifications (research)",
+    "confidence": "third-party",
+    "source": "https://www.humanoid-robots.io/robot/xiaowu-by-tencent-robotics-x"
+  },
+  "price": {
+    "value": "n/a (research prototype)",
+    "confidence": "third-party",
+    "source": "https://technode.com/2024/09/25/tencent-robotics-x-lab-reveals-the-five-a-hybrid-home-help-robot/"
+  },
+  "availability": {
+    "value": "not available; lab only",
+    "confidence": "third-party",
+    "source": "https://technode.com/2024/09/25/tencent-robotics-x-lab-reveals-the-five-a-hybrid-home-help-robot/"
+  },
+  "deployment_evidence": {
+    "value": "lab demos only (obstacle crossing, transport, physical support, massage)",
+    "confidence": "third-party",
+    "source": "https://mikekalil.com/blog/tencent-the-five-robot/"
+  },
+  "sources": [
+    "https://technode.com/2024/09/25/tencent-robotics-x-lab-reveals-the-five-a-hybrid-home-help-robot/",
+    "https://www.humanoid-robots.io/robot/xiaowu-by-tencent-robotics-x",
+    "https://mikekalil.com/blog/tencent-the-five-robot/",
+    "https://humanoid.press/database/humanoid-press-database-xiaowu/"
+  ],
+  "notes": "[ANNEX] BORDERLINE for study scope: wheel-leg hybrid (4 straight telescoping legs with wheels), not a wheeled-base semi-humanoid. Fifth-generation Robotics X 'human-habitat' robot; successor demo humanoid Xiao Liu shown WAIC 2026."
+}
