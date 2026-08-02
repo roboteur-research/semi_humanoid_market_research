@@ -10,9 +10,9 @@
   "first_shown": "2026 (Launch YC, no public hardware imagery)",
   "target_applications": "manufacturing, warehouse, 3PL: picking, sorting, assembly, inspection",
   "base_type": {
-    "value": null,
-    "confidence": "",
-    "source": ""
+    "value": "floor-standing rounded base + lift column (seen in site video; wheels not visible — mobile vs static unconfirmed)",
+    "confidence": "estimated",
+    "source": "https://edenrobotics.ai/assets/videos/header-hero.mp4 (frame @0:02)"
   },
   "height_mm": {
     "value": null,
@@ -75,9 +75,9 @@
     "source": ""
   },
   "end_effector": {
-    "value": null,
-    "confidence": "",
-    "source": ""
+    "value": "parallel-jaw grippers (both arms, seen in video)",
+    "confidence": "estimated",
+    "source": "https://edenrobotics.ai/assets/videos/header-hero.mp4 (frame @0:02)"
   },
   "media_at_flange": {
     "value": null,
@@ -135,5 +135,5 @@
     "https://edenrobotics.ai/",
     "https://edenrobotics.ai/about"
   ],
-  "notes": "YC Spring 2026 (batch code P26; some YC metadata says Fall 2026). Founders: Stamatis Floratos (CEO), Dr. Joey Humphreys (CTO). 'Semi-humanoid' is the company's own term; form factor undisclosed. Website embeds anti-AI-cloning prompt injection. Legal HQ London contradicts discovery note listing it as US."
+  "notes": "YC Spring 2026 (batch code P26; some YC metadata says Fall 2026). Founders: Stamatis Floratos (CEO), Dr. Joey Humphreys (CTO). 'Semi-humanoid' is the company's own term; form factor undisclosed. Website embeds anti-AI-cloning prompt injection. Legal HQ London contradicts discovery note listing it as US. 2026-08-02: first form-factor evidence from site header video — dual-arm torso, screen-visor head, translucent shell, lift column on rounded floor base; kitting demo."
 }
