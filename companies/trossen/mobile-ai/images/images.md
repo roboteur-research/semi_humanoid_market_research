@@ -11,3 +11,5 @@ First two images downloaded by a prior session of this study; third added and ve
 **QA note (2026-08-02):** mobile-ai-robot-front.jpg deleted during visual audit — it showed the Trossen TOTL workstation PC tower, not the robot. Replaced with mobile-ai-rear-laptop-mount.png (verified: actual Mobile AI unit from the same vendor page).
 
 Note: no independent (non-vendor) photo of a deployed Mobile AI unit was found this session; predecessor Mobile ALOHA lab photos exist at https://mobile-aloha.github.io/ if a non-marketing image is needed later.
+
+| mobile-ai-hero-kit.png | https://www.trossenrobotics.com/aloha (Wix CDN) | https://static.wixstatic.com/media/d3716d_df9333ef352e4971b0378be0fa66b5e8~mv2.png | Trossen "ALOHA Project" kit unit #5 — the commercial productization of the Stanford design: white cabinet body, leader + follower arm pairs, wheeled base (723×723). Moved here from the Stanford dossier 2026-08-02 (was misfiled: this is the product, not the research rig) | Trossen product image |

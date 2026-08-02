@@ -9,32 +9,131 @@
   "status": "research",
   "first_shown": "2024-01",
   "target_applications": "mobile manipulation research, imitation-learning data collection, household task demos",
-
-  "base_type":            {"value": "wheeled (diff-drive, AgileX Tracer AGV)", "confidence": "vendor-claimed", "source": "https://arxiv.org/abs/2401.02117"},
-  "height_mm":            {"value": null, "confidence": "", "source": ""},
-  "weight_kg":            {"value": null, "confidence": "", "source": ""},
-  "dof_total":            {"value": 14, "confidence": "estimated", "source": "2x6 arm DoF + 2 base drive DoF; https://arxiv.org/abs/2401.02117"},
-  "dof_per_arm":          {"value": 6, "confidence": "vendor-claimed", "source": "https://www.trossenrobotics.com/aloha"},
-  "reach_mm":             {"value": 750, "confidence": "vendor-claimed", "source": "ViperX 300 spec; workspace 650-2000mm height, 1000mm beyond base per paper"},
-  "payload_per_arm_kg":   {"value": 1.5, "confidence": "vendor-claimed", "source": "https://arxiv.org/html/2401.02117v1"},
-  "payload_total_kg":     {"value": 3, "confidence": "estimated", "source": "2x1.5kg; base itself carries 100kg"},
-  "torso_lift":           {"value": "fixed frame (no lift); arms mounted to cover 0.65-2.0m heights", "confidence": "vendor-claimed", "source": "https://arxiv.org/html/2401.02117v1"},
-  "max_speed_ms":         {"value": 1.42, "confidence": "vendor-claimed", "source": "https://arxiv.org/html/2401.02117v1"},
-  "battery_kwh":          {"value": 1.26, "confidence": "vendor-claimed", "source": "https://arxiv.org/html/2401.02117v1"},
-  "runtime_h":            {"value": null, "confidence": "", "source": ""},
-  "actuators":            {"value": "Dynamixel smart servos (arms); hub-motor diff drive (base)", "confidence": "third-party", "source": "https://www.trossenrobotics.com/aloha"},
-  "end_effector":         {"value": "parallel-jaw grippers with custom low-cost fingers", "confidence": "vendor-claimed", "source": "https://arxiv.org/abs/2401.02117"},
-  "media_at_flange":      {"value": "n/a", "confidence": "vendor-claimed", "source": "https://arxiv.org/abs/2401.02117"},
-  "sensors_head":         {"value": "1x Logitech C922x RGB webcam (front/top view), 640x480 @ 50Hz; no depth/lidar", "confidence": "vendor-claimed", "source": "https://arxiv.org/html/2401.02117v1"},
-  "sensors_wrist_hand":   {"value": "2x Logitech C922x wrist RGB cameras; no F/T or tactile", "confidence": "vendor-claimed", "source": "https://arxiv.org/html/2401.02117v1"},
-  "sensors_base":         {"value": "wheel odometry only", "confidence": "vendor-claimed", "source": "https://arxiv.org/abs/2401.02117"},
-  "compute":              {"value": "consumer laptop: Intel i7-12800H, RTX 3070 Ti 8GB", "confidence": "vendor-claimed", "source": "https://arxiv.org/html/2401.02117v1"},
-  "software_stack":       {"value": "ROS; open-source MIT (MarkFzp/mobile-aloha, act-plus-plus); ACT, Diffusion Policy, VINN imitation learning; whole-body teleop", "confidence": "vendor-claimed", "source": "https://mobile-aloha.github.io/"},
-  "safety_compliance":    {"value": "none (research prototype)", "confidence": "third-party", "source": "https://arxiv.org/abs/2401.02117"},
-  "price":                {"value": "~USD 32,000 self-build BOM; Trossen Mobile AI kit ~USD 23-34k", "confidence": "vendor-claimed", "source": "https://arxiv.org/abs/2401.02117"},
-  "availability":         {"value": "open-source plans worldwide; commercial kits via Trossen Robotics / AgileX", "confidence": "third-party", "source": "https://www.trossenrobotics.com/aloha"},
-  "deployment_evidence":  {"value": "research only; replicated by many labs; DeepMind ALOHA 2 / Unleashed follow-ups; lineage to Sunday Robotics Memo", "confidence": "third-party", "source": "https://aloha-unleashed.github.io/"},
-
-  "sources": ["https://mobile-aloha.github.io/", "https://arxiv.org/abs/2401.02117", "https://www.trossenrobotics.com/aloha", "https://www.roboticscenter.ai/blog/mobile-aloha-setup"],
+  "base_type": {
+    "value": "wheeled (diff-drive, AgileX Tracer AGV)",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/abs/2401.02117"
+  },
+  "height_mm": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "weight_kg": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "dof_total": {
+    "value": 14,
+    "confidence": "estimated",
+    "source": "2x6 arm DoF + 2 base drive DoF; https://arxiv.org/abs/2401.02117"
+  },
+  "dof_per_arm": {
+    "value": 6,
+    "confidence": "vendor-claimed",
+    "source": "https://www.trossenrobotics.com/aloha"
+  },
+  "reach_mm": {
+    "value": 750,
+    "confidence": "vendor-claimed",
+    "source": "ViperX 300 spec; workspace 650-2000mm height, 1000mm beyond base per paper"
+  },
+  "payload_per_arm_kg": {
+    "value": 1.5,
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/html/2401.02117v1"
+  },
+  "payload_total_kg": {
+    "value": 3,
+    "confidence": "estimated",
+    "source": "2x1.5kg; base itself carries 100kg"
+  },
+  "torso_lift": {
+    "value": "fixed frame (no lift); arms mounted to cover 0.65-2.0m heights",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/html/2401.02117v1"
+  },
+  "max_speed_ms": {
+    "value": 1.42,
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/html/2401.02117v1"
+  },
+  "battery_kwh": {
+    "value": "1.62 kWh (Fig.1: 1620 Wh, 12 h); earlier third-party note said 1.26 kWh/14 kg — paper figure authoritative",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/abs/2401.02117 Fig.1"
+  },
+  "runtime_h": {
+    "value": null,
+    "confidence": "",
+    "source": ""
+  },
+  "actuators": {
+    "value": "Dynamixel smart servos (arms); hub-motor diff drive (base)",
+    "confidence": "third-party",
+    "source": "https://www.trossenrobotics.com/aloha"
+  },
+  "end_effector": {
+    "value": "parallel-jaw grippers with custom low-cost fingers",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/abs/2401.02117"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/abs/2401.02117"
+  },
+  "sensors_head": {
+    "value": "1x Logitech C922x RGB webcam (front/top view), 640x480 @ 50Hz; no depth/lidar",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/html/2401.02117v1"
+  },
+  "sensors_wrist_hand": {
+    "value": "2x Logitech C922x wrist RGB cameras; no F/T or tactile",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/html/2401.02117v1"
+  },
+  "sensors_base": {
+    "value": "wheel odometry only",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/abs/2401.02117"
+  },
+  "compute": {
+    "value": "consumer laptop: Intel i7-12800H, RTX 3070 Ti 8GB",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/html/2401.02117v1"
+  },
+  "software_stack": {
+    "value": "ROS; open-source MIT (MarkFzp/mobile-aloha, act-plus-plus); ACT, Diffusion Policy, VINN imitation learning; whole-body teleop",
+    "confidence": "vendor-claimed",
+    "source": "https://mobile-aloha.github.io/"
+  },
+  "safety_compliance": {
+    "value": "none (research prototype)",
+    "confidence": "third-party",
+    "source": "https://arxiv.org/abs/2401.02117"
+  },
+  "price": {
+    "value": "~USD 32,000 self-build BOM; Trossen Mobile AI kit ~USD 23-34k",
+    "confidence": "vendor-claimed",
+    "source": "https://arxiv.org/abs/2401.02117"
+  },
+  "availability": {
+    "value": "open-source plans worldwide; commercial kits via Trossen Robotics / AgileX",
+    "confidence": "third-party",
+    "source": "https://www.trossenrobotics.com/aloha"
+  },
+  "deployment_evidence": {
+    "value": "research only; replicated by many labs; DeepMind ALOHA 2 / Unleashed follow-ups; lineage to Sunday Robotics Memo",
+    "confidence": "third-party",
+    "source": "https://aloha-unleashed.github.io/"
+  },
+  "sources": [
+    "https://mobile-aloha.github.io/",
+    "https://arxiv.org/abs/2401.02117",
+    "https://www.trossenrobotics.com/aloha",
+    "https://www.roboticscenter.ai/blog/mobile-aloha-setup"
+  ],
   "notes": "Research platform, not a product. Success rates 80-95% on household tasks with 20-50 demos + co-training. Stanford PR1 (2006-08, Salisbury lab) is the historic predecessor that led to Willow Garage PR2."
 }
