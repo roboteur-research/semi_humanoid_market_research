@@ -39,6 +39,23 @@ Small-scale warehouse sorting validation with claimed efficiency gains [S1, vend
 ## Assessment (analyst view)
 *Analyst opinion.* Strengths: arguably China's strongest dedicated dexterous-manipulation software team (PKU RL lab pedigree), fastest model cadence in the cohort, in-house hands + haptic-glove data engine, and a ¥2B war chest with strategic backing from AgiBot and state funds. Weaknesses: hardware platform is secondary and spec-opaque (no payload/runtime/price data); commercialization is still at validation stage; the company may pivot to licensing models rather than selling robots. Threat to an EU entrant: high on the autonomy axis — Psi R-class long-horizon dexterity is the software benchmark an EU semi-humanoid must match or buy; low as a direct hardware competitor today.
 
+## Second model: ψ-SynRobot (Psi SynRobot) — first mass-production platform
+Unveiled 20 April 2026 with simultaneous start of large-scale mass production,
+ψ-SynRobot is PsiBot's second wheeled dual-arm humanoid and its first
+mass-production machine — successor/productization of the Psi V1 prototype
+line. Vendor tagline: "The Smartest Embodied Carrier — a wheeled robot with
+multiple skills and reasoning abilities" (自带多技能与推理能力) [S6]. Form
+factor: wheeled mobile manipulator with humanoid dual-arm upper body for
+structured indoor environments (logistics, retail, industrial), engineered for
+"reliable long-duration operation" [S7]. Its defining design choice is
+dual-purpose operation + data collection: the robot gathers real-world visual
+and tactile data while executing tasks, feeding PsiBot's "data + model
+dual-drive" strategy (Psi-SynEngine naming lineage) — effectively putting the
+SynEngine data flywheel on wheels in customer sites [S7]. Detailed specs
+(DoF, payload, runtime, price) not yet disclosed; hands presumably PsiBot H1
+family. Confidence: launch date/mass-production third-party; positioning
+vendor-claimed; specs n/a (not disclosed).
+
 ## Sources
 | # | URL | What it supports | Confidence |
 |---|---|---|---|
@@ -47,3 +64,5 @@ Small-scale warehouse sorting validation with claimed efficiency gains [S1, vend
 | 3 | http://finance.sina.com.cn/tech/csj/2026-03-10/doc-inhqnrqv6329051.shtml | ¥2B funding, seed investors | third-party |
 | 4 | https://aixzd.com/robot/psi-v1 | Psi V1 directory entry: 1.75m, 32 DoF, 16-DoF hands, wheeled dual-arm long-horizon framing | third-party |
 | 5 | Search snippets (灵初智能 Psi V1 mahjong; ofweek funding roundup) | Mahjong demo, Meituan Little Yellow Bee, NVIDIA cooperation, H1 hand | third-party |
+| 6 | https://www.psibot.ai/en/home/ | ψ-SynRobot "Smartest Embodied Carrier" wheeled multi-skill positioning | vendor-claimed |
+| 7 | https://html.duckduckgo.com/html/?q=PsiBot+ψ-SynRobot+灵初智能+SynRobot | ψ-SynRobot unveiling 2026-04-20, mass production start, dual operation+data-collection design, target scenarios | third-party |

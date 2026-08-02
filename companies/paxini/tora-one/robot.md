@@ -44,11 +44,19 @@ n/a (not disclosed). Force-controlled compliant grasping implied by tactile stac
 ## Assessment (analyst view)
 *Analyst opinion.* Strengths: unmatched tactile density and force-control granularity at a believable cost point (¥199 fingertip sensors), a dual business model (component supplier + robot OEM) that funds itself even if the humanoid stalls, and a >RMB 10B-valuation war chest. Weaknesses: mobility and arm specs are mid-tier (0.6 m/s, 5 kg/arm, ±0.5 mm), no named robot deployments, and the whole-robot product looks like a technology showcase for the sensor business. Threat to an EU entrant: direct competition is moderate, but PaXini raises the manipulation bar industry-wide — and is simultaneously a potential component partner an EU builder could buy hands/tactile skin from rather than compete with.
 
+## Variant note: "Tora DoubleOne" (verified 2026-08)
+humanoid.guide lists a separate PaXini product "Tora DoubleOne" (https://humanoid.guide/product/tora-doubleone/): 168 cm, 70 kg, 58 DoF overall (18 in hands), five-finger modular hands, 6.5 kg grip, 6.5 km/h, 6 h runtime, Jetson AGX Orin + x86 real-time controller, folding wheeled base for transport, "in production, pre-order" at ~USD 45,000. Assessment: this is the same TORA product line — most plausibly the second-generation/commercial packaging of TORA-ONE (PaXini's own site markets only the TORA-ONE line), not an unrelated robot; several DoubleOne figures (58 vs 53 DoF, 1.8 vs 0.6 m/s) conflict with PaXini's official spec sheet, so vendor figures above remain authoritative. Treat DoubleOne specs as third-party, unconfirmed. [S4]
+
+## Misattribution note: humanoid.guide "Tokyo Robotics ToraOne" (verified 2026-08)
+humanoid.guide's separate "ToraOne" listing (https://humanoid.guide/product/toraone/) names "Tokyo Robotics" as manufacturer but shows the PaXini logo, links to paxini.com/robot, describes "a groundbreaking humanoid robot from Paxini", lists country China, and its specs (186 cm ≈ TORA-ONE extended height, 47 DoF ≈ first-gen TORA-ONE, 8 h runtime) match this robot. Verdict: it is a misattributed duplicate of PaXini's TORA-ONE — Tokyo Robotics' actual product is the Torobo (see companies/tokyo-robotics/). [S5]
+
 ## Sources
 | # | URL | What it supports | Confidence |
 |---|---|---|---|
 | 1 | https://www.paxini.com/product/dex | DexH13 hand: 13 DoF, 0.01N, 5kg, 100k cycles | vendor-claimed |
 | 2 | https://www.paxini.com/cn/robot | TORA-ONE full specs (53 DoF, 2280 ITPU/6840 ch, 1.46-1.86m, nav, cameras, 40Ah/8h, VTLA) | vendor-claimed |
 | 3 | lite.duckduckgo.com aggregate (funding/press) | JD A-round, ¥1B+ B-round @ ¥10B+ val, sensor cost, supplier role, 2023 first-gen claim | third-party |
+| 4 | https://humanoid.guide/product/tora-doubleone/ | "Tora DoubleOne" variant listing: 168 cm/70 kg/58 DoF/folding base/$45k pre-order | third-party |
+| 5 | https://humanoid.guide/product/toraone/ | misattributed "Tokyo Robotics ToraOne" duplicate (PaXini logo/links/specs) | third-party |
 
 *Unknown fields = n/a (not disclosed).*

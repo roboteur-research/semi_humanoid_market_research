@@ -1,0 +1,137 @@
+{
+  "robot": "Modular",
+  "robot_native": "",
+  "company": "O-ID",
+  "company_native": "",
+  "hq_country": "Japan",
+  "hq_city": "Tokyo",
+  "region": "Japan",
+  "status": "announced",
+  "first_shown": "2026",
+  "target_applications": "commercial automation, industrial manufacturing, logistics (flat-floor warehouse/factory)",
+  "base_type": {
+    "value": "wheeled base with wheel hub motors (flat-floor); humanoid upper body on column",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "height_mm": {
+    "value": 1720,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "weight_kg": {
+    "value": 70,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "dof_total": {
+    "value": 30,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 16,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "torso_lift": {
+    "value": "fixed column (no lift disclosed); modular swappable components",
+    "confidence": "estimated",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "max_speed_ms": {
+    "value": 1.4,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 4,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "actuators": {
+    "value": "electric servo/BLDC + harmonic/planetary reducers in arms; wheel hub motors",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "end_effector": {
+    "value": "multi-finger claw-style grippers (10 fingers total); swappable end-effector modules",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "media_at_flange": {
+    "value": "n/a (not disclosed)",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "sensor aperture/camera bar in torso column; no distinct head; suite not disclosed",
+    "confidence": "estimated",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "compute": {
+    "value": "not disclosed; Ethernet + WiFi",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "software_stack": {
+    "value": "Linux/ROS-based; SDK 'possible'; LLM integration unspecified",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "safety_compliance": {
+    "value": "'safe for human interaction' attribute; no standards/CE claims found",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "price": {
+    "value": "USD 70,000",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "availability": {
+    "value": "early production / limited release; ships from Tokyo",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "deployment_evidence": {
+    "value": "none found",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/modular/"
+  },
+  "sources": [
+    "https://humanoid.guide/product/modular/",
+    "https://o-id.net/"
+  ],
+  "notes": "Verification verdict: qualifies as anthropomorphic dual-arm wheeled system (no ) — render shows two humanoid arms with claw grippers on column torso; guide confirms wheeled base. '24/7 uptime' claim vs 4 h runtime implies battery swap/dock rotation (undisclosed). Modularity/field-service/supply-chain-sovereignty positioning."
+}

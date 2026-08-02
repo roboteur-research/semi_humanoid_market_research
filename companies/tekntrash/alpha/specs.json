@@ -1,0 +1,137 @@
+{
+  "robot": "ALPHA (Automated Litter Processing Humanoid Assistant)",
+  "robot_native": "",
+  "company": "TeknTrash",
+  "company_native": "",
+  "hq_country": "United Kingdom",
+  "hq_city": "",
+  "region": "Europe",
+  "status": "prototype",
+  "first_shown": "2025",
+  "target_applications": "recycling facilities and waste processing: autonomous sorting/picking, hazardous-material handling",
+  "base_type": {
+    "value": "wheeled AMR base with tall lift column and integrated collection bin",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "height_mm": {
+    "value": 2000,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "weight_kg": {
+    "value": 90,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "dof_total": {
+    "value": 13,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "dof_per_arm": {
+    "value": 6,
+    "confidence": "third-party",
+    "source": "https://html.duckduckgo.com/html/?q=TeknTrash+ALPHA+robot+waste"
+  },
+  "reach_mm": {
+    "value": 2000,
+    "confidence": "third-party",
+    "source": "https://html.duckduckgo.com/html/?q=TeknTrash+ALPHA+robot+waste"
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 5,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "torso_lift": {
+    "value": "adjustable lift column (reach up to 2 m)",
+    "confidence": "third-party",
+    "source": "https://html.duckduckgo.com/html/?q=TeknTrash+ALPHA+robot+waste"
+  },
+  "max_speed_ms": {
+    "value": 0.25,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 7,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "actuators": {
+    "value": "Realman servo joints (Chinese cobot-arm supply); ~3 h recharge",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "end_effector": {
+    "value": "parallel grippers (2 gripper DoF total); rake-style fingers in render",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "media_at_flange": {
+    "value": "n/a (not disclosed)",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "stereo/depth camera bar (640x480 depth); hyperspectral vision claimed",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": "LiDAR, ultrasonic, IMU",
+    "confidence": "third-party",
+    "source": "https://html.duckduckgo.com/html/?q=TeknTrash+ALPHA+robot+waste"
+  },
+  "compute": {
+    "value": "NVIDIA Orin AGX 64 GB (275 TOPS), WiFi",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "software_stack": {
+    "value": "Ubuntu 24; deep-learning object recognition; cloud fleet coordination; claimed 20 ms glass-to-action (marketing)",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "safety_compliance": {
+    "value": "IP32; no safety standards or CE claims found",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "price": {
+    "value": "USD 55,000",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "availability": {
+    "value": "prototype, not commercially available; pilots claimed; UK",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/alpha/"
+  },
+  "deployment_evidence": {
+    "value": "pilot deployments with waste-management operators claimed; no named sites or counts",
+    "confidence": "third-party",
+    "source": "https://html.duckduckgo.com/html/?q=TeknTrash+ALPHA+robot+waste"
+  },
+  "sources": [
+    "https://humanoid.guide/product/alpha/",
+    "https://www.tekntrash.com/"
+  ],
+  "notes": "Form factor verified from official render: dual-arm anthropomorphic torso with camera head on lift column over AMR base — QUALIFIES as semi-humanoid (no needed despite waste-analytics company origin)."
+}

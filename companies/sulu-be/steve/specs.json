@@ -1,0 +1,137 @@
+{
+  "robot": "Steve",
+  "robot_native": "",
+  "company": "Sulu.be (Jan De Coster studio)",
+  "company_native": "",
+  "hq_country": "Belgium",
+  "hq_city": "Mechelen",
+  "region": "Europe",
+  "status": "shipping",
+  "first_shown": "2013 (concept); commercial ~2024",
+  "target_applications": "entertainment, hospitality, events, brand campaigns: character hosting, greeting",
+  "base_type": {
+    "value": "wheeled cart base (large front drive wheels + casters); humanoid figure stands on it",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "height_mm": {
+    "value": 2100,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "weight_kg": {
+    "value": 140,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "dof_total": {
+    "value": 22,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "dof_per_arm": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "reach_mm": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "payload_per_arm_kg": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "payload_total_kg": {
+    "value": 5,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "torso_lift": {
+    "value": "fixed",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "max_speed_ms": {
+    "value": 2.2,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "battery_kwh": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "runtime_h": {
+    "value": 2,
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "actuators": {
+    "value": "DC motors with custom aluminum gears",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "end_effector": {
+    "value": "styled 5-finger hands, 2 hand DoF total; grip ~5 kg; expressive/gestural only",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "media_at_flange": {
+    "value": "n/a",
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_head": {
+    "value": "animated eye/mouth display; camera/mic assumed for interaction (not disclosed)",
+    "confidence": "estimated",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "sensors_wrist_hand": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "sensors_base": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "compute": {
+    "value": "Arduino-based control, WiFi",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "software_stack": {
+    "value": "scripted/teleoperated character performance; no AI/autonomy stack disclosed",
+    "confidence": "estimated",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "safety_compliance": {
+    "value": null,
+    "confidence": "estimated",
+    "source": ""
+  },
+  "price": {
+    "value": "USD 60,000",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "availability": {
+    "value": "built to order since ~2024; Belgium/EU events market",
+    "confidence": "third-party",
+    "source": "https://humanoid.guide/product/steve/"
+  },
+  "deployment_evidence": {
+    "value": "character host in Belgian movie theaters (Brightfish), corporate receptions, festivals, brand activations; unit counts n/a",
+    "confidence": "third-party",
+    "source": "https://html.duckduckgo.com/html/?q=sulu.be+Steve+robot+Belgium"
+  },
+  "sources": [
+    "https://humanoid.guide/product/steve/",
+    "https://jandecoster.com/"
+  ],
+  "notes": "Form-factor verdict: anthropomorphic dual-arm humanoid on wheeled cart — qualifies morphologically (no ), but is an artisanal entertainment/character robot (Arduino control), not a functional work platform. One-person Belgian studio of designer Jan De Coster."
+}

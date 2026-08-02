@@ -8,7 +8,7 @@
 | Employees (approx.) | n/a (not disclosed); ~100+ [estimated] |
 | Ownership / listing | Private |
 | Total funding / valuation | ~¥2B cumulative by 03/2026 (angel + Pre-A series): seed by BlueRun Ventures 蓝驰 + AgiBot 智元机器人; angel led by Hillhouse 高瓴 + BlueRun (11/2024); later rounds incl. "national team" capital (state-owned capital operation co., CCTV media industry fund) [third-party] |
-| Semi-humanoid products | [Psi V1](psi-v1/robot.md) wheeled dual-arm humanoid |
+| Semi-humanoid products | [Psi V1](psi-v1/robot.md) wheeled dual-arm humanoid; ψ-SynRobot — first mass-production wheeled dual-arm platform, unveiled 2026-04-20 with mass-production start (see section in psi-v1/robot.md) |
 | Other products | Psi R0/R1/R2 VLA models, PsiBot H1 16-DoF dexterous hand, Psi-SynEngine data system with 62+-DoF exoskeleton haptic gloves, Meituan "Little Yellow Bee" (小黄蜂) end-mile delivery robot co-development |
 | Website | https://www.psibot.ai |
 

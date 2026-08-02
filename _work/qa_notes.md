@@ -125,3 +125,16 @@
 - Munich RobCo (modular kits, Sequoia/Lightspeed, $100M Series C 2026-01-29) announced bimanual humanoid-form "Alfie" 2026-04-15, Hannover Messe preview, RaaS, deployments "later this year". Base UNDISCLOSED — official render deliberately ends at waist (waist column visible). In-scope regardless (pedestal torsos qualify). Corpus now 193/181 main. Germany count 12. WATCH: reveal of lower body will determine wheeled vs pedestal classification.
 - RobCo Alfie base RESOLVED (user video tip): promo video 0:14 shows full Alfie in simulation with broad mobile-style base platform → classified "probable wheeled" [estimated]; frames archived in dossier. Watch official confirmation.
 - OP1 reclassified annex → MAIN (user consistency review): pedestal/stationary mounting not disqualifying (cf. NEXTAGE, MOTOMAN NEXT, Jinki ver.2.0); multi-arm not disqualifying (cf. iSageBot). Main matrix now 182 / annex 11.
+
+## GAP-ROW completed (12 dossiers + psibot edit, from humanoid.guide wheeled list)
+- New: kinisi-robotics/kr1, wirobotics/allex, muks-robotics/spaceo, ihub-robotics/tara-gen1, isento/pib-pro (DE), futuring-robot/futuring-2, simplexity/i-series, twolabs/tobi, tekntrash/alpha, sulu-be/steve, o-id/modular (JP), mirsee/mh3 (CA). psibot ψ-SynRobot section added (mass production from 2026-04-20).
+- CORRECTIONS: Futuring Robot = CHINESE (Shanghai 未来不远, ex-edtech founder, ~RMB 1.2B 2026, 300+ household deployments claimed). Simplexity = 至简动力 Hangzhou unicorn (07/2025, ex-Li Auto AD execs, ~$289M Tencent/Alibaba/HongShan; I-Series wheeled $78k prototype). Mirsee = Canada (Cambridge ON). isento pib.Pro: full-body on 2-wheel self-balancing base (80cm figure = desktop pib).
+- No [ANNEX] cases; Sulu.be Steve flagged artisanal entertainment build (qualifies morphologically).
+- OPEN: Mirsee weight/status conflicts; TeknTrash pilots unnamed; O-ID team/funding unknown.
+
+## GAP-CN completed + final integration (2026-08-02)
+- New CN dossiers: robbyant/r1 (Ant Group; launch 2025-09-11 Bund Conf; R1-S variant), x-square-robot/quanta-x2 (Meituan/Alibaba/ByteDance/Sequoia/SAIC rounds; Wall-OSS open-sourced), x-humanoid/tian-yi-2 (Orin AGX 64GB; JD retail 2025-10-17), noetix/hobbs (=松延动力; W1 wheeled $73.5k, 54 DoF, 500+ JD pre-orders), lanxin/versabot, pl-universe/prowhite (+Zeus 1), casivision/casivibot (~$29k), elu-ai/astrod-ad-01, holiday-robotics/friday (KOREA; ₩155bn Series A), zeroth-robotics/sean, tangible-robots/eggie (USA).
+- VERIFICATIONS: Galbot S1 REAL → galbot/s1 dossier (01/2026 industrial, 320kg, 30kg/arm, CATL deployment). JAKA Kargo REAL → jaka/kargo (CIIF 2025-09-23). Siasun DUCO = cobot brand, NOT wheeled humanoid (noted). Tora DoubleOne = TORA line 2nd-gen/commercial packaging (noted). "Tokyo Robotics ToraOne" = humanoid.guide misattribution of PaXini (noted both dossiers).
+- humanoid.guide AUTO-GENERATED SPECS UNRELIABLE (VersaBot/ProWhite/AstroD conflicts w/ vendor) — treat as estimated only. Guide's filtered URL (?_platform=wheeled) = good refresh source.
+- Un-annexed o-id/steve/tekntrash per agent verdicts (tags contradicted findings).
+- FINAL CORPUS: 218 robots (207 main + 11 annex), ~200 companies; region totals: CN 63, US+CA 46, EU 38, JP 33, KR 16, Other 22; 82 shipping / 31 announced.
