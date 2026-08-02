@@ -50,9 +50,9 @@
     "source": "2x5kg rated; dual-arm total not separately stated"
   },
   "torso_lift": {
-    "value": "3-DOF waist (roll/pitch/yaw) + 2-DOF folding/lifting leg; 3-DOF neck",
+    "value": "3-DOF waist (roll/pitch/yaw; yaw ±174.5°, pitch -110°..+64°) + 2-DOF folding/lifting leg (knee 0-152°), 570mm height range (1225-1795mm); 3-DOF neck",
     "confidence": "vendor-claimed",
-    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram) + official G2 spec PDF"
   },
   "max_speed_ms": {
     "value": 1.5,
@@ -100,9 +100,9 @@
     "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
   },
   "compute": {
-    "value": "NVIDIA Jetson T5000, 2070 TFLOPS (FP4)",
+    "value": "NVIDIA Jetson Thor T5000, 2070 TFLOPS (FP4), <10ms latency claim",
     "confidence": "vendor-claimed",
-    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram)"
+    "source": "https://www.agibot.com/public/static/index/en/images/G2/G2Four-img.jpg (official anatomy diagram) + official G2 spec PDF"
   },
   "software_stack": {
     "value": "GO-1/GO-2 VLA models; collect-train-deploy data flywheel (AgiBot World); AimRT middleware; OTA; secondary development supported; Wi-Fi/BT/4G/5G/NFC; closed source + B2B SDK",
