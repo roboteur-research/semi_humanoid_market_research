@@ -29,3 +29,6 @@ Mentee is primarily a **bipedal** competitor — our sweep found no confirmed wh
 | S4 | https://www.aparobot.com/robots/menteebot | 70 kg weight, 40 DoF, 30N pinch/finger, tactile sensors, camera-only production plan | third-party |
 | S5 | https://www.robotics247.com/article/ces-2026-mobileye-set-to-acquire-humanoid-robot-startup-mentee-robotics-for-900m | CES 2026 announcement, completion 2026-02-03 | third-party |
 | S6 | https://interestingengineering.com/ai-robotics/humanoid-robot-pair-32-boxes | Warehouse dual-robot box-sorting demo | third-party |
+
+
+**Corpus note (2026-08-02):** the robot subfolder for a "wheeled MenteeBot" was removed — no such variant exists (early discovery confusion with Humanoid's HMND-01). Company profile retained for the Mobileye acquisition context ($900M, closed 2026-02-03); MenteeBot itself is bipedal and out of scope.
